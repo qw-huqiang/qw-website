@@ -20,7 +20,7 @@
                 <!-- 产品特点 end-->
                 
             </view>
-            <recommend></recommend>
+            <recommend :tit="result.theDemo.title" :txt="result.theDemo.des" :relist="result.theDemo.list"></recommend>
         </view>
         <footernav></footernav>
     </view>
@@ -31,6 +31,7 @@ import result1 from '@/viewData/caseCart';
 import result2 from '@/viewData/caseCons';
 import result3 from '@/viewData/caseFlw';
 import result4 from '@/viewData/caseMfg';
+import result5 from '@/viewData/caseFood';
 // 产品特点
 import iconCard from '@/components/iconCard';
 // 业务说明 (图，文字上下结构)
@@ -56,6 +57,9 @@ export default {
                 break;
             case 'mfg':
                 this.result = result4
+                break; 
+            case 'food':
+                this.result = result5
                 break;    
             default:
                 this.result = result1
@@ -77,7 +81,10 @@ export default {
                 break;
             case 'mfg':
                 barTitle = '制造业解决方案'
-                break;    
+                break;   
+            case 'food':
+                barTitle = '餐饮解决方案'
+                break;     
             default:
                 barTitle = ''
                 break;

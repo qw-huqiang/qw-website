@@ -1,0 +1,47 @@
+{
+    "banner": [{
+        "url": "/static/cases/bg-cons.png",
+        "title1":"餐饮行业",
+        "title2":"数字化专业赋能解决方案",
+        "content": "帮助餐饮企业通过数字化、智能化的升级，实现菜品精品化、服务个性化、用户粉丝化，优化品牌、增加收益",
+        "linkUrls":[{"name":"立即查看","linkurl":""}]
+    }],
+    "productTrait": {
+        "title":"核心价值",
+        "des":"助力企业加快数字化进程，重建产业链价值。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/car19.png","title":"增收","des":"餐饮企业数字化转型，助力餐饮企业创造新价值。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car11.png","title":"会员","des":"餐饮企业会员统一，增加企业数字资产。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car16.png","title":"数据","des":"数据分析、收集和挖掘，为餐饮企业决策做重要支撑。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car20.png","title":"营销","des":"丰富的营销方案，有利于餐饮企业提升品牌认识和对市场的精准定位。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car12.png","title":"服务","des":"通过餐饮企业的社群运营、会员运营，全面提升用户黏性。"}
+        ]
+    },
+    "solution": {
+        "title":"业务说明",
+        "des":"以深度行业洞见，赋能关键业务数字化升级",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/shu21.png","title":"数字化转型","des":"助力餐饮企业构建全网络的产品、营销和服务体系，在传统的店内餐饮外，扩大外卖、其他商品服务网络销售等业务，增加营业收入。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu20.png","title":"会员统一身份","des":"就餐客户线上化、会员化，基于客户数据，构建会员体系。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu19.png","title":"完备的数据分析体系","des":"全面采集店内店外的用户行为，通过对门店、产品、用户的分析，帮助餐饮企业制定产品、营销、服务、环境的改进措施。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu18.png","title":"丰富的营销方案","des":"开辟餐饮企业网络宣传阵地，以社区化、娱乐化的营销工具活跃用户，建立独特的心智定位。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu7.png","title":"完备的服务体系","des":"餐饮企业通过预约、自提等下单体验，获得相应的积分和经验值，并通过积分兑换等方式，获得不同的商品和服务等互联网化的服务体验，同时基于精准的个人画像帮助门店、服务员为顾客提供针对性的个性化服务，提高用户的重复消费和黏性。","router":""}
+        ]
+    },
+    "productComm": {
+        "title":"产品推荐",
+        "des":"以技术领先、功能全面、定制灵活的产品矩阵，构建行业数字化解决方案。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/car7.png","title":"O2O","des":"实现线上线下融合，建立多终端覆盖的新零售体系。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car30.png","title":"MemOps","des":"会员数字化运营，助力企业全方位高效服务粉丝和客户。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car29.png","title":"SCRM","des":"社群全渠道数字化运营，助力企业构建私域流量池。"}
+        ]
+    },
+    "theDemo": {
+        "title":"最佳实践",
+        "des":"行业标杆企业践行数字化升级",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/bestpractices/logo/qw_19.png","des":"海底捞是中国最大的餐饮企业。全网数商帮助海底捞打造海底捞会员商城，同时在海底捞APP、微信小程序、微信公众号、支付宝生活号以及近600余家门店的PAD点餐系统中运营，助力海底捞打造全球年轻人都喜爱能够参与的餐桌社交文化。"}
+        ]
+    }
+}    

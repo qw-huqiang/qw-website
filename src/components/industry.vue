@@ -1,13 +1,15 @@
 <template>
     <view class="industry" :class="txtlay?'txtlt':''">
         <view class="industry-item box" v-for="(item,index) in list" :key="index">
-            <view class="qw-img">
-                <image mode="widthFix" :src="item.pic"></image>
-            </view>
-            <view class="qw-tit">{{item.title}}</view>
-            <view class="qw-txt">
-                {{item.des}}
-            </view>
+            <navigator :url="item.router" open-type="navigate" hover-class="none">
+                <view class="qw-img">
+                    <image mode="widthFix" :src="item.pic"></image>
+                </view>
+                <view class="qw-tit">{{item.title}}</view>
+                <view class="qw-txt">
+                    {{item.des}}
+                </view>
+            </navigator>
         </view>
     </view>
 </template>

@@ -1,6 +1,6 @@
 {
     "banner": [{
-        "url": "../../static/cases/bg-flw.png",
+        "url": "/static/cases/bg-flw.png",
         "title1":"流通行业",
         "title2":"数字化专业赋能解决方案",
         "content": "助力流通企业数字化赋能，以用户为中心，数据智能化运营，实现产业生态业务创新。",
@@ -10,29 +10,37 @@
         "title":"核心价值",
         "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
         "list":[
-            {"pic":"../../static/cases/flw-i1.png","title":"创新","des":"数字化创新的互联网交易和服务平台助力流通企业创造新价值"},
-            {"pic":"../../static/cases/flw-i2.png","title":"标准","des":"优化流通企业整体链条， 改善运营和业务流程，让运营简单化、规范化和标准化。"},
-            {"pic":"../../static/cases/flw-i3.png","title":"赋能","des":"构建流通企业新模式，增强运营能力，改善交易体验，持续提升交易规模"},
-            {"pic":"../../static/cases/flw-i4.png","title":"数据","des":"全面的流通数据分析、收集和挖掘，辅助交易双方做出正确决策"}
+            {"pic":"http://www.qwang.com.cn/img/solution/car13.png","title":"创新","des":"数字化创新的互联网交易和服务平台助力流通企业创造新价值"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car14.png","title":"标准","des":"优化流通企业整体链条， 改善运营和业务流程，让运营简单化、规范化和标准化。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car15.png","title":"赋能","des":"构建流通企业新模式，增强运营能力，改善交易体验，持续提升交易规模"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car16.png","title":"数据","des":"全面的流通数据分析、收集和挖掘，辅助交易双方做出正确决策"}
         ]
     },
     "solution": {
         "title":"业务说明",
-        "des":"来自全球权威机构的权威认证，保证客户业务环境安全可靠",
+        "des":"以深度行业洞见，赋能关键业务数字化升级",
         "list":[
-            {"pic":"../../static/cases/flw-f1.png","title":"领先互联网交易和服务平台","des":"采用数字化的技术创新，助力流通企业创造新价值。","router":""},
-            {"pic":"../../static/cases/flw-f2.png","title":"重塑运营标准","des":"基于互联网平台，优化流通企业整体链条， 改善运营和业务流程，帮助运营简单化、规范化和标准化。","router":""},
-            {"pic":"../../static/cases/flw-f3.png","title":"赋能交易双方高效运营","des":"全方位助力企业实现快速增长。提供金融、物流等服务和丰富的营销工具，可根据实际需求快速调整营销方式，提升转化和增长。","router":""},
-            {"pic":"../../static/cases/flw-f4.png","title":"数据分析和辅助决策","des":"通过对区域分析、用户分析、商品分析等，数据一站式呈现，辅助流通企业实现精准营销，提升用户交易体验。","router":""}
+            {"pic":"http://www.qwang.com.cn/img/solution/solution1.png","title":"领先互联网交易和服务平台","des":"采用数字化的技术创新，助力流通企业创造新价值。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu10.png","title":"重塑运营标准","des":"基于互联网平台，优化流通企业整体链条， 改善运营和业务流程，帮助运营简单化、规范化和标准化。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu11.png","title":"赋能交易双方高效运营","des":"全方位助力企业实现快速增长。提供金融、物流等服务和丰富的营销工具，可根据实际需求快速调整营销方式，提升转化和增长。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu12.png","title":"数据分析和辅助决策","des":"通过对区域分析、用户分析、商品分析等，数据一站式呈现，辅助流通企业实现精准营销，提升用户交易体验。","router":""}
         ]
     },
     "productComm": {
         "title":"产品推荐",
-        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "des":"以技术领先、功能全面、定制灵活的产品矩阵，构建行业数字化解决方案。",
         "list":[
-            {"pic":"../../static/cases/cart-i5.png","title":"B2B2C","des":"数字化转型 ， 重塑汽车企业的业务经 营体系"},
-            {"pic":"../../static/cases/cart-i6.png","title":"B2P2B","des":"为汽车企业提供丰富营销方案， 持续提升客户消费体验。"},
-            {"pic":"../../static/cases/cart-i7.png","title":"数据中台","des":"通过对车主的社群运营、 会员运营， 提高车主品牌 忠诚度。"}
+            {"pic":"http://www.qwang.com.cn/img/solution/car17.png","title":"B2B2C","des":"支持多种业务模式，提高核心运营能力，打造生态级电子商务平台。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car18.png","title":"B2P2B","des":"通过数字化技术搭建产业、行业交易平台，构建生态环境，提升交易效率。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car8.png","title":"数据中台","des":"应用数字化管理，驱动精细化运营，提升企业数字化资产。"}
+        ]
+    },
+    "theDemo": {
+        "title":"最佳实践",
+        "des":"行业标杆企业践行数字化升级",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/bestpractices/logo/qw_7.png","des":"得力集团是中国最大的办公与学习用品产业集团。全网数商帮助得力集团打造集什平台，旨在全方位满足政企用户一站式采购需求，为政企提供平台开发、产品供应、电商运营、物流配送及售后服务整体解决方案。"},
+            {"pic":"http://www.qwang.com.cn/img/bestpractices/logo/qw_8.png","des":"浙江宏伟供应链集团服务于核电、新能源和高端装备制造业的供应链综合服务商。全网数商帮助宏伟集团倾力打造宏伟天马-工业品一站式在线采购服务平台，赋能上下游企业，推动企业现代供应链体系转型升级，成就工业互联网生态平台。"}
         ]
     }
 }    

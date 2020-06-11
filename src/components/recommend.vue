@@ -1,9 +1,11 @@
 <template>
     <view class="recd">
-        <title-h tit="推荐实践" txt="来自全球权威机构的权威认证，保证客户业务环境安全可靠"></title-h>
+        <view class="content">
+        <title-h :tit="tit" :txt="txt"></title-h>
+        </view>
         <scroll-view class="scroll-view_H" scroll-x="true">
             <view class="no-warp">
-                <view class="recommed-main box" v-for="(item,index) in list" :key="index">
+                <view class="recommed-main box" v-for="(item,index) in relist" :key="index">
                     <view class="recommed-logo">
                         <image :src="item.pic" ></image>
                     </view>
@@ -17,6 +19,22 @@
 </template>
 <script>
 export default {
+    props: {
+        relist: {
+            type: Array,
+            default: function () {
+                return this.list
+            }
+        },
+        tit: {
+            type: String,
+            default: '实践案例'
+        },
+        txt: {
+            type: String,
+            default: '企业数字化转型不仅仅是靠软件产品、靠技术就可以解决的，还需要一个有多年服务经验的技术服务商'
+        }
+    },
     data() {
         return {
             list: [
@@ -29,7 +47,7 @@ export default {
                 {'pic':'http://www.qwang.com.cn/img/bestpractices/logo/qw_19.png','des':'海底捞是中国最大的餐饮企业。全网数商帮助海底捞打造海底捞会员商城，同时在海底捞APP、微信小程序、微信公众号、支付宝生活号以及近600余家门店的PAD点餐系统中运营，助力海底捞打造全球年轻人都喜爱能够参与的餐桌社交文化。'},
                 {'pic':'http://www.qwang.com.cn/img/bestpractices/logo/qw_31.png','des':'明亚保险是中国领先的保险经纪公司。全网数商帮助明亚保险打造700度保险网网销系统、业务核心系统，助力700度打造成为集合保险购买、理赔指导、线下咨询、金融理财、健康管理集一身的综合服务平台。'},
                 {'pic':'http://www.qwang.com.cn/img/bestpractices/logo/qw_25.png','des':'歌华文化发展集团负责北京市有线广电业务。全网数商帮助歌华有线打造有线网厅、电视营业厅、手机营业厅、歌华影院、社区服务等多项业务平台，助力歌华打造大型国有平台型文化产业集团，成为立足首都、面向全国、走向世界的一流文化服务供应商。'}
-            ]
+            ],
         }
     } 
 }

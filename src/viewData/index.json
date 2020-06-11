@@ -34,13 +34,13 @@
         "title":"行业解决方案",
         "des":"对标行业领先企业，运用新模式、新技术，践行数字化转型",
         "list":[
-            {"pic":"/static/index/industry1.png","title":"制造业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"/static/index/industry2.png","title":"制造业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"/static/index/industry3.png","title":"快消业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"/static/index/industry4.png","title":"汽车业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"/static/index/industry5.png","title":"餐饮业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"/static/index/industry6.png","title":"保险业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"/static/index/industry7.png","title":"制造业解决方案","des":"先进的互联网架构，沉淀关键","router":""}
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab.png","title":"制造业解决方案","des":"数字化助力制造企业实现战略转型","router":"/pages/cases/cases?type=mfg"},
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab1.png","title":"流通业解决方案","des":"数字化助力制造企业实现战略转型","router":"/pages/cases/cases?type=flw"},
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab2.png","title":"快消业解决方案","des":"快消企业构建多品类一体化数字平台","router":"/pages/cases/cases?type=cons"},
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab3.png","title":"汽车业解决方案","des":"数字化重塑汽车企业业务经营体系","router":"/pages/cases/cases?type=cart"},
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab4.png","title":"餐饮业解决方案","des":"数字化升级餐饮企业服务体验","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab5.png","title":"保险业解决方案","des":"助力保险经代公司拓展互联网业务","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab6.png","title":"广电业解决方案","des":"数据驱动助力广电企业实现业务升级","router":""}
         ]
     },
     "projects": {
@@ -100,7 +100,7 @@
                 "content":"张裕集团是亚洲最大的葡萄酒生产经营企业。全网数商帮助张裕集团打造官网商城，聚焦高品质、聚焦中高端、聚焦大单品，助力张裕集团打造更多消费者认可的国际品牌。"
             },
             {
-                "name":"得力集团","pic":"http://www.qwang.com.cn/img/demo/case2.png","tags":["制造业500强","最大文具供应商"],"router":"",
+                "name":"得力集团","pic":"http://www.qwang.com.cn/img/demo/case2.png","tags":["制造业500强","B2B百强","最大文具供应商"],"router":"",
                 "content":"得力集团是中国最大的办公与学习用品产业集团。全网数商帮助得力集团打造集什平台，旨在全方位满足政企用户一站式采购需求，为政企提供平台开发、产品供应、电商运营、物流配送及售后服务整体解决方案。"
             },
             {
@@ -108,7 +108,7 @@
                 "content":"浙江宏伟供应链集团服务于核电、新能源和高端装备制造业的供应链综合服务商。全网数商帮助宏伟集团倾力打造宏伟天马-工业品一站式在线采购服务平台，赋能上下游企业，推动企业现代供应链体系转型升级，成就工业互联网生态平台。"
             },
             {
-                "name":"长城汽车","pic":"http://www.qwang.com.cn/img/demo/case4.png","tags":["中国500强","汽车品牌榜首","上市公司"],"router":"",
+                "name":"长城汽车","pic":"http://www.qwang.com.cn/img/demo/case4.png","tags":["500强","汽车品牌榜首","上市公司"],"router":"",
                 "content":"长城汽车是中国规模最大的集体所有制汽车制造企业。全网数商帮助长城汽车打造哈弗官方商城、欧拉官方商城、长城汽车智慧云店系统、长城二手车拍卖平台，助力长城汽车落实“客户满意”和“市场领先”的营销战略。"
             },
             {

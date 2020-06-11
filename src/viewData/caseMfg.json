@@ -1,39 +1,46 @@
 {
     "banner": [{
-        "url": "../../static/cases/bg-mfg.png",
+        "url": "/static/cases/bg-mfg.png",
         "title1":"制造行业",
         "title2":"数字化专业赋能解决方案",
-        "content": "助力流通企业数字化赋能，以用户为中心，数据智能化运营，实现产业生态业务创新。",
+        "content": "助力制造企业全流程整合，打造开放的数字化平台，拓展互联网销售渠道，提高运营效率。",
         "linkUrls":[{"name":"立即查看","linkurl":""}]
     }],
     "productTrait": {
         "title":"核心价值",
-        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "des":"助力企业加快数字化进程，重建产业链价值。",
         "list":[
-            {"pic":"../../static/cases/mfg-i1.png","title":"创新","des":"数字化、云技术，助力制造企业实现战略转型"},
-            {"pic":"../../static/cases/mfg-i2.png","title":"标准","des":"打通制造企业前台、中台、后台各系统，打破信息孤岛，实现数据统一 "},
-            {"pic":"../../static/cases/mfg-i3.png","title":"赋能","des":"制造企业管理模式的重塑，支持多种先进的运营体系建立"},
-            {"pic":"../../static/cases/mfg-i4.png","title":"数据","des":"用户为中心，洞察客户需求，掌握市场趋势，助力制造企业不断完善产品及服务"}
+            {"pic":"http://www.qwang.com.cn/img/solution/car1.png","title":"赋能","des":"数字化、云技术，助力制造企业实现战略转型。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car2.png","title":"统一","des":"打通制造企业前台、中台、后台各系统，打破信息孤岛，实现数据统一。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car3.png","title":"运营","des":"制造企业管理模式的重塑，支持多种先进的运营体系建立"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car4.png","title":"洞察","des":"用户为中心，洞察客户需求，掌握市场趋势，助力制造企业不断完善产品及服务"}
         ]
     },
     "solution": {
         "title":"业务说明",
-        "des":"来自全球权威机构的权威认证，保证客户业务环境安全可靠",
+        "des":"以深度行业洞见，赋能关键业务数字化升级",
         "list":[
-            {"pic":"../../static/cases/mfg-f1.png","title":"数字化转型","des":"制造企业通过商业互联网战略调整，支撑产品体系、价格体系、销售体系和客户运营体系执行更高效。 ","router":""},
-            {"pic":"../../static/cases/mfg-f2.png","title":"深度整合业务系统","des":"构建前台、中台、后台整合的一体化平台，数据完整统一、重塑业务流程，提高制造企业运营效率。","router":""},
-            {"pic":"../../static/cases/mfg-f3.png","title":"互联网化的运营体系","des":"帮助制造企业搭建基于互联网的销售体系，构建全网络的运营体系。 ","router":""},
-            {"pic":"../../static/cases/mfg-f4.png","title":"洞察客户需求掌握市场趋势","des":"制造企业通过全网络的产品、营销、用户等多维度分析，识别客户需求，判断市场趋势，不断完善产品及服务。","router":""}
+            {"pic":"http://www.qwang.com.cn/img/solution/m-shu.png","title":"数字化转型","des":"制造企业通过商业互联网战略调整，支撑产品体系、价格体系、销售体系和客户运营体系执行更高效 ","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu1.png","title":"深度整合业务系统","des":"构建前台、中台、后台整合的一体化平台，数据完整统一、重塑业务流程，提高制造企业运营效率。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu2.png","title":"互联网化的运营体系","des":"帮助制造企业搭建基于互联网的销售体系，构建全网络的运营体系。 ","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu3.png","title":"洞察客户需求掌握市场趋势","des":"制造企业通过全网络的产品、营销、用户等多维度分析，识别客户需求，判断市场趋势，不断完善产品及服务。","router":""}
         ]
     },
     "productComm": {
         "title":"产品推荐",
-        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "des":"以技术领先、功能全面、定制灵活的产品矩阵，构建行业数字化解决方案",
         "list":[
-            {"pic":"../../static/cases/cart-i5.png","title":"B2B","des":"数字化转型 ， 重塑汽车企业的业务经 营体系"},
-            {"pic":"../../static/cases/cart-i6.png","title":"B2C","des":"为汽车企业提供丰富营销方案， 持续提升客户消费体验。"},
-            {"pic":"../../static/cases/mfg-i5.png","title":"O2O","des":"统一管理和收集汽车企业销售线索,跟踪并管控渠道商的商机转化"},
-            {"pic":"../../static/cases/cart-i7.png","title":"数据中台","des":"通过对车主的社群运营、 会员运营， 提高车主品牌 忠诚度。"}
+            {"pic":"http://www.qwang.com.cn/img/solution/car5.png","title":"B2B","des":"快速建立经销网络，赋能经销商，高效服务终端客户。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car6.png","title":"B2C","des":"以消费者驱动业务为核心，建立领先、支持多品类、多品牌运营的品牌零售系统。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car5.png","title":"业务中台","des":"助力企业数字化转型，提效增速练内功，构建产业生态链。"}
+        ]
+    },
+    "theDemo": {
+        "title":"最佳实践",
+        "des":"行业标杆企业践行数字化升级",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/bestpractices/logo/qw_1.png","des":"TCL集团是全球领先的智慧科技集团。全网数商帮助TCL集团打造TCL业务中台、官方商城、B2B平台、O2O平台、海外电商平台、大会员系统等多项业务平台，助力TCL集团实现“双+”转型和全球化的双轮驱动发展战略。"},
+            {"pic":"http://www.qwang.com.cn/img/bestpractices/logo/qw_4.png","des":"九牧集团是全球领先的高端卫浴品牌企业。全网数商帮助九牧集团打造九牧官方商城、九牧官网、小牧官网等多个系统，助力九牧厨卫升级中国智能制造，成就全球泛家居引领者。"}
         ]
     }
 }    

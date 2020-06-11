@@ -1,6 +1,6 @@
 {
     "banner": [{
-        "url": "../../static/cases/bg-cart.png",
+        "url": "/static/cases/bg-cart.png",
         "title1":"汽车行业",
         "title2":"数字化专业赋能解决方案",
         "content": "帮助汽车企业快速构建统一的数字化平台，优化市场营<br/>销体系和客户服务体系，提高运营效率。",
@@ -8,32 +8,38 @@
     }],
     "productTrait": {
         "title":"核心价值",
-        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "des":"助力企业加快数字化进程，重建产业链价值。",
         "list":[
-            {"pic":"../../static/cases/cart-i1.png","title":"重塑","des":"数字化转型  ，重塑汽车企业的业务经 营体系"},
-            {"pic":"../../static/cases/cart-i2.png","title":"营销","des":"为汽车企业提供丰富营销方案 ，  持续提升客户消费 体验。"},
-            {"pic":"../../static/cases/cart-i3.png","title":"转化","des":"统一管理和收集汽车企业销售线索，跟踪并管控渠道商的商机转化"},
-            {"pic":"../../static/cases/cart-i4.png","title":"服务","des":"通过对车主的社群运营、 会员运营， 提高车主品牌 忠诚度。"}
+            {"pic":"http://www.qwang.com.cn/img/qw-car1.png","title":"重塑","des":"数字化转型 ，重塑汽车企业的业务经营体系。"},
+            {"pic":"http://www.qwang.com.cn/img/qw-car2.png","title":"营销","des":"为汽车企业提供丰富营销方案 ，  持续提升客户消费 体验。"},
+            {"pic":"http://www.qwang.com.cn/img/qw-car3.png","title":"转化","des":"统一管理和收集汽车企业销售线索，跟踪并管控渠道商的商机转化"},
+            {"pic":"http://www.qwang.com.cn/img/qw-car4.png","title":"服务","des":"通过对车主的社群运营、 会员运营， 提高车主品牌 忠诚度。"}
         ]
     },
     "solution": {
         "title":"业务说明",
-        "des":"来自全球权威机构的权威认证，保证客户业务环境安全可靠",
+        "des":"以深度行业洞见，赋能关键业务数字化升级。",
         "list":[
-            {"pic":"../../static/cases/cart-f1.png","title":"数字化转型","des":"通过互联网、移动互联网、物联网和人工智能等先进技术，实现汽车企业的品牌宣传、整车业务、二手车业务、零配件和周边服务的运营全面数字化。","router":""},
-            {"pic":"../../static/cases/cart-f2.png","title":"丰富的营销活动","des":"汽车企业通过社区化、娱乐化的营销活动，线上线下全面触达用户，提升用户购买意向","router":""},
-            {"pic":"../../static/cases/cart-f3.png","title":"高质量的商机转化","des":"汽车企业全网络自动收集销售线索，跟踪并管控渠道商的商机转化。","router":""},
-            {"pic":"../../static/cases/cart-f4.png","title":"完备的服务体系","des":"实现针对车主的社群运营，提高车主品牌忠诚度，提供良好的汽车保养体验。","router":""}
+            {"pic":"http://www.qwang.com.cn/img/solution/shu8.png","title":"数字化转型","des":"通过互联网、移动互联网、物联网和人工智能等先进技术，实现汽车企业的品牌宣传、整车业务、二手车业务、零配件和周边服务的运营全面数字化。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/explain2.png","title":"丰富的营销活动","des":"汽车企业通过社区化、娱乐化的营销活动，线上线下全面触达用户，提升用户购买意向","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/explain3.png","title":"高质量的商机转化","des":"汽车企业全网络自动收集销售线索，跟踪并管控渠道商的商机转化。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu9.png","title":"完备的服务体系","des":"实现针对车主的社群运营，提高车主品牌忠诚度，提供良好的汽车保养体验。","router":""}
         ]
     },
     "productComm": {
         "title":"产品推荐",
-        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "des":"以技术领先、功能全面、定制灵活的产品矩阵，构建行业数字化解决方案",
         "list":[
-            {"pic":"../../static/cases/cart-i5.png","title":"B2B","des":"数字化转型 ， 重塑汽车企业的业务经 营体系"},
-            {"pic":"../../static/cases/cart-i6.png","title":"B2C","des":"为汽车企业提供丰富营销方案， 持续提升客户消费体验。"},
-            {"pic":"../../static/cases/cart-i7.png","title":"数据中台","des":"通过对车主的社群运营、 会员运营， 提高车主品牌 忠诚度。"},
-            {"pic":"../../static/cases/cart-i8.png","title":"中台业务","des":"统一管理和收集汽车企业销售线索，跟踪并管控渠道商的商机转化"}
+            {"pic":"http://www.qwang.com.cn/img/solution/car5.png","title":"B2B","des":"快速建立经销网络，赋能经销商，高效服务终端客户"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car6.png","title":"B2C","des":"以消费者驱动业务为核心，建立领先、支持多品类、多品牌运营的品牌零售系统。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car29.png","title":"SCRM","des":"社群全渠道数字化运营，助力企业构建私域流量池。"}
+        ]
+    },
+    "theDemo": {
+        "title":"最佳实践",
+        "des":"行业标杆企业践行数字化升级",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/bestpractices/logo/qw_13.png","des":"长城汽车是中国规模最大的集体所有制汽车制造企业。全网数商帮助长城汽车打造哈弗官方商城、欧拉官方商城、长城汽车智慧云店系统、长城二手车拍卖平台，助力长城汽车落实“客户满意”和“市场领先”的营销战略。"}
         ]
     }
 }    

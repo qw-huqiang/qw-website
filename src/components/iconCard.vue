@@ -26,8 +26,8 @@ export default {
     }
     .icon-card image {
         display: block;
-        width: 108rpx;
-        margin: 64rpx auto;
+        width: 140rpx;
+        margin: 40rpx auto;
     }
     .icon-tit {
         font-size: 32rpx;
