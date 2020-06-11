@@ -1,7 +1,7 @@
 {
     "banner": [{
         "url": "../../static/tcl/bg-best.png",
-        "title1":"海底捞数字科技",
+        "title1":"",
         "title2":"助力更贴心的服务",
         "content": "帮助海底捞打造海底捞捞币商城，全面提升会员服务2.0，践行数字化方式提升会员服务水平。",
         "linkUrls":[{"name":"索取详细方案","linkurl":"","clr":true},{"name":"立即咨询","linkurl":""}]
