@@ -82,7 +82,7 @@
 
 <script>
 	// 获取首页数据
-  	import result from '@/viewData/index';
+  	// import result from '@/viewData/index';
 	// 业务卡片组件
 	import card from '@/components/card'
 	// 解决方案组件 (图，文字上下结构)
@@ -92,12 +92,12 @@
 			return {
 				indicatorDots: true,
 				autoplay: false,
-				result: {},
+				result: require('@/viewData/index'),
 				
 			}
 		},
 		onLoad() {
-			this.result = result
+			// this.result = result
 		},
 		methods: {
 			showSlide(){
