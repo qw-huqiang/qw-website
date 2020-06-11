@@ -1,0 +1,39 @@
+{
+    "banner": [{
+        "url": "../../static/cases/bg-mfg.png",
+        "title1":"制造行业",
+        "title2":"数字化专业赋能解决方案",
+        "content": "助力流通企业数字化赋能，以用户为中心，数据智能化运营，实现产业生态业务创新。",
+        "linkUrls":[{"name":"立即查看","linkurl":""}]
+    }],
+    "productTrait": {
+        "title":"核心价值",
+        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "list":[
+            {"pic":"../../static/cases/mfg-i1.png","title":"创新","des":"数字化、云技术，助力制造企业实现战略转型"},
+            {"pic":"../../static/cases/mfg-i2.png","title":"标准","des":"打通制造企业前台、中台、后台各系统，打破信息孤岛，实现数据统一 "},
+            {"pic":"../../static/cases/mfg-i3.png","title":"赋能","des":"制造企业管理模式的重塑，支持多种先进的运营体系建立"},
+            {"pic":"../../static/cases/mfg-i4.png","title":"数据","des":"用户为中心，洞察客户需求，掌握市场趋势，助力制造企业不断完善产品及服务"}
+        ]
+    },
+    "solution": {
+        "title":"业务说明",
+        "des":"来自全球权威机构的权威认证，保证客户业务环境安全可靠",
+        "list":[
+            {"pic":"../../static/cases/mfg-f1.png","title":"数字化转型","des":"制造企业通过商业互联网战略调整，支撑产品体系、价格体系、销售体系和客户运营体系执行更高效。 ","router":""},
+            {"pic":"../../static/cases/mfg-f2.png","title":"深度整合业务系统","des":"构建前台、中台、后台整合的一体化平台，数据完整统一、重塑业务流程，提高制造企业运营效率。","router":""},
+            {"pic":"../../static/cases/mfg-f3.png","title":"互联网化的运营体系","des":"帮助制造企业搭建基于互联网的销售体系，构建全网络的运营体系。 ","router":""},
+            {"pic":"../../static/cases/mfg-f4.png","title":"洞察客户需求掌握市场趋势","des":"制造企业通过全网络的产品、营销、用户等多维度分析，识别客户需求，判断市场趋势，不断完善产品及服务。","router":""}
+        ]
+    },
+    "productComm": {
+        "title":"产品推荐",
+        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "list":[
+            {"pic":"../../static/cases/cart-i5.png","title":"B2B","des":"数字化转型 ， 重塑汽车企业的业务经 营体系"},
+            {"pic":"../../static/cases/cart-i6.png","title":"B2C","des":"为汽车企业提供丰富营销方案， 持续提升客户消费体验。"},
+            {"pic":"../../static/cases/mfg-i5.png","title":"O2O","des":"统一管理和收集汽车企业销售线索,跟踪并管控渠道商的商机转化"},
+            {"pic":"../../static/cases/cart-i7.png","title":"数据中台","des":"通过对车主的社群运营、 会员运营， 提高车主品牌 忠诚度。"}
+        ]
+    }
+}    

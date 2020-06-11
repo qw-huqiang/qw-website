@@ -1,0 +1,46 @@
+{
+    "banner": [{
+        "url":"../../static/icommx/bg-bp.png",
+        "title1":"iCommX BP业务中台",
+        "title2":"iCommX Tech技术架构",
+        "content": "助力企业数字化转型，提效增速练<br/>内功，构建产业生态链",
+        "linkUrls":[]
+    }],
+    "productTrait": {
+        "title":"产品特点",
+        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "list":[
+            {"pic":"../../static/icommx/bp-i1.png","title":"重构","des":"打破企业内部业务孤岛，减少各业务重复建设，聚力公司资源面对市场竞争"},
+            {"pic":"../../static/icommx/bp-i2.png","title":"贯通","des":"有效融合前台、中台、后台，形成完整业务闭环，加快业务处理速度，提升运营效率"},
+            {"pic":"../../static/icommx/bp-i3.png","title":"赋能","des":"支撑前端新业务快速开拓，供给数据中台完整实时的数据归集"},
+            {"pic":"../../static/icommx/bp-i4.png","title":"协同","des":"释放产业链核心企业能力，以开放的数字化平台引领产业链深度融合"}
+        ]
+    },
+    "productConstruct": {
+        "title":"产品结构",
+        "des":"来自全球权威机构的权威认证，保证客户业务环境安全可靠",
+        "list":[
+            {"pic":"../../static/icommx/bp-cs1.png","title":"产品中心","des":"产品基础信息的维护，产品的发布以及各渠道所发布产品的审核，设置各渠道采购权限。","router":""},
+            {"pic":"../../static/icommx/bp-cs2.png","title":"价格中心","des":"对全渠道价格统一管控，包括产品采购价、零售价、批发价，以及各渠道的销售价格，区域不同价格不同","router":""},
+            {"pic":"../../static/icommx/bp-cs3.png","title":"库存中心","des":"统一管理仓库及库存信息，定义覆盖范围，制定出库规则、出库优先级，可监控终端库存并进行合理分配","router":""},
+            {"pic":"../../static/icommx/bp-cs4.png","title":"营销中心","des":"制定全平台通用的促销规则，审核各平台发布的促销活动，掌握不同渠道不同促销的实际效果。","router":""},
+            {"pic":"../../static/icommx/bp-cs5.png","title":"用户中心","des":"客户信息统一管理，包括积分、权益、账户信息等；渠道商、经销商统一监管。","router":""},
+            {"pic":"../../static/icommx/bp-cs6.png","title":"订单中心","des":"所有渠道销售类的实物订单以及服务订单进行整合及拆分。","router":""},
+            {"pic":"../../static/icommx/bp-cs7.png","title":"财务中心","des":"各部门各角色分账比例的设置，收款单、退款单的管理及审核，对账、分账的监管以及订单发票的处理。","router":""},
+            {"pic":"../../static/icommx/bp-cs8.png","title":"服务中心","des":"售后服务一体化管控、物流及服务信息节点监管，服务订单全流程跟踪。","router":""},
+            {"pic":"../../static/icommx/bp-cs9.png","title":"组织管理中心","des":"统一维护系统账号，包括组织设置、角色划分、人员授权等","router":""},
+            {"pic":"../../static/icommx/bp-cs10.png","title":"供应商管理中心","des":"供应商统一管理，包括供应商评估、级别管理、询价、招标、竞价等。","router":""},
+            {"pic":"../../static/icommx/bp-cs11.png","title":"采购中心","des":"采购业务的全程管理，涉及计划、审批、执行跟踪等。","router":""},
+            {"pic":"../../static/icommx/bp-cs12.png","title":"商户中心","des":"渠道商、经销商统管理，包括经销商授权管理、级别管理、文案分发、培训辅导等。","router":""},
+            {"pic":"../../static/icommx/bp-cs13.png","title":"内容中心","des":"渠道商、经销商统-管理，包括经销商授权管理、级别管理、文案分发、培训辅导等。","router":""},
+            {"pic":"../../static/icommx/bp-cs14.png","title":"装修中心","des":"渠道商、经销商统-管理，包括经销商授权管理、级别管理、文案分发、培训辅导等。","router":""},
+            {"pic":"../../static/icommx/bp-cs15.png","title":"接口中心","des":"以开发API的形式,实现与后台、外部渠道、产业生态的集成融合。","router":""},
+            {"pic":"../../static/icommx/bp-cs16.png","title":"监控中心","des":"全面实时监控系统硬件运行环境、操作系统环境、容器环境、中间件、业务服务等，保障系统稳定运行。","router":""}
+        ]
+    },
+    "picfllow": {
+        "title":"主流程图",
+        "des":"快速搭建经销体系，赋能经销商，统一会员服务",
+        "pic": "../../static/icommx/bp-hp.png"
+    }
+}    

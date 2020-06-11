@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+/* 公共按钮样式部分 */
+.butn { 
+	display: inline-block;
+	font-size: 28rpx; 
+	font-weight: normal; 
+	line-height: 1.5; 
+	border: 1px solid transparent; 
+	background: transparent; 
+	text-align: center; 
+	white-space: nowrap; 
+	vertical-align: middle; 
+	cursor: pointer; 
+	-webkit-user-select:none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none; 
+	-webkit-transition: all .3s; 
+	transition: all .3s; 
+	font-family:'Microsoft Yahei','HelveticaNeueLTPro-ThEx',tahoma,arial,'helvetica neue','hiragino sans gb',Simsun,sans-serif;
+}
+.butn-custom { 
+  color: #fff; 
+  border-color: #25B4D6; 
+  background-color: #25B4D6; 
+} /*默认按钮 蓝底白字*/
+.butn-custom:hover,
+.butn-custom:focus,
+.butn-custom:active,
+.butn-custom.active { 
+  border-color: #1894b2; 
+  background-color: #1894b2; 
+  color: #fff; 
+}
+.home{
+	background-color: #F5F7FA;
+}
+.content{
+	padding: 0 45rpx;
+}
+.box {
+	background-color: #fff;
+	box-shadow:0px 20rpx 60rpx 0px rgba(111,111,111,0.1);
+}
+.mt_20 {
+	margin-top: 20rpx;
+}

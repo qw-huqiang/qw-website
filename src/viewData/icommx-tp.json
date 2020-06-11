@@ -1,0 +1,24 @@
+{
+    "banner": [{
+        "url": "../../static/icommx/bg-tp.png",
+        "title1":"",
+        "title2":"iCommX DP数据中台",
+        "content": "助力企业数字化转型，提效增速练<br/>内功，构建产业生态链",
+        "linkUrls":[{"name":"立即查看","linkurl":""}]
+    }],
+    "productTrait": {
+        "title":"产品特点",
+        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "list":[
+            {"pic":"../../static/icommx/tp-i1.png","title":"先进","des":"采用成熟、活跃的技术社区技术，提供简洁、可视化的服务"},
+            {"pic":"../../static/icommx/tp-i2.png","title":"弹性","des":"以弹性伸缩的技术服务,支撑业务快速响应用户和市场变化"},
+            {"pic":"../../static/icommx/tp-i3.png","title":"兼容","des":"适应各种云环境的差异,实现业务快速部署"},
+            {"pic":"../../static/icommx/tp-i4.png","title":"高效","des":"协同高效的软件交付方法，助力企业数字化转型快速实施"}
+        ]
+    },
+    "picfllow": {
+        "title":"主流程图",
+        "des":"快速搭建经销体系，赋能经销商，统一会员服务",
+        "pic": "../../static/icommx/tp-hp.png"
+    }
+}    
