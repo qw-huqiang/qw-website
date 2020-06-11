@@ -1,20 +1,20 @@
 {
     "banner": [{
-            "url": "../../static/index/bg.png",
+            "url": "/static/index/bg.png",
             "title1":"",
             "title2":"企业大中台",
             "content": "利用地面网络、互联网、移动互联网、物联网构建全渠道销售网络，实现全程、全面、全线的销售商销方式，实现数字化商业创新。",
             "linkUrls":[{"name":"立即查看","linkurl":"/pages/icommx/index?type=bp"}]
         },
         {
-            "url": "../../static/index/bg.png",
+            "url": "/static/index/bg.png",
             "title1":"",
             "title2":"全渠道销售",
             "content": "利用地面网络、互联网、移动互联网、物联网构建全渠道销售网络，实现全程、全面、全线的销售商品和服务，提供随时随地的购买体验。",
             "linkUrls":[{"name":"立即查看","linkurl":""}]
         },
         {
-            "url": "../../static/index/bg.png",
+            "url": "/static/index/bg.png",
             "title1":"",
             "title2":"智能营销",
             "content": "基于移动互联网、物联网、大数据及云计算科技，以用户为中心，通过个性化、精准化、智能化的营销方式，实现数字化商业创新。",
@@ -34,13 +34,13 @@
         "title":"行业解决方案",
         "des":"对标行业领先企业，运用新模式、新技术，践行数字化转型",
         "list":[
-            {"pic":"../../static/index/industry1.png","title":"制造业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"../../static/index/industry2.png","title":"制造业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"../../static/index/industry3.png","title":"快消业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"../../static/index/industry4.png","title":"汽车业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"../../static/index/industry5.png","title":"餐饮业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"../../static/index/industry6.png","title":"保险业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
-            {"pic":"../../static/index/industry7.png","title":"制造业解决方案","des":"先进的互联网架构，沉淀关键","router":""}
+            {"pic":"/static/index/industry1.png","title":"制造业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
+            {"pic":"/static/index/industry2.png","title":"制造业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
+            {"pic":"/static/index/industry3.png","title":"快消业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
+            {"pic":"/static/index/industry4.png","title":"汽车业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
+            {"pic":"/static/index/industry5.png","title":"餐饮业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
+            {"pic":"/static/index/industry6.png","title":"保险业解决方案","des":"先进的互联网架构，沉淀关键","router":""},
+            {"pic":"/static/index/industry7.png","title":"制造业解决方案","des":"先进的互联网架构，沉淀关键","router":""}
         ]
     },
     "projects": {
@@ -71,12 +71,12 @@
         "title":"安全合规的多重保障",
         "des":"来自全球权威机构的权威认证，保证客户业务环境安全可靠",
         "list":[
-            {"pic":"../../static/index/safeguard1.png","router":""},
-            {"pic":"../../static/index/safeguard2.png","router":""},
-            {"pic":"../../static/index/safeguard3.png","router":""},
-            {"pic":"../../static/index/safeguard4.png","router":""},
-            {"pic":"../../static/index/safeguard5.png","router":""},
-            {"pic":"../../static/index/safeguard6.png","router":""}
+            {"pic":"/static/index/safeguard1.png","router":""},
+            {"pic":"/static/index/safeguard2.png","router":""},
+            {"pic":"/static/index/safeguard3.png","router":""},
+            {"pic":"/static/index/safeguard4.png","router":""},
+            {"pic":"/static/index/safeguard5.png","router":""},
+            {"pic":"/static/index/safeguard6.png","router":""}
         ]
     },
     "cases": {
