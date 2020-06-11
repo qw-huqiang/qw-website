@@ -1,10 +1,10 @@
 <template>
-	<view>
+	<view class="home">
 		<!-- 头部导航 -->
 		<topnav :srcollchange="srcollpage"></topnav>
 		<!-- 轮播图 -->
 		<banner :banner="result.banner"></banner>
-		<view class="home">
+		<view >
 			<view class="company-type">
 				<view class="company-item">
 					<view class="company-tit">企业大中台</view>

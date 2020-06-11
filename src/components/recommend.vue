@@ -69,10 +69,9 @@ export default {
 .no-warp {
     font-size: 0;
     white-space: nowrap;
+    margin-left: 44rpx;
 }
- .scroll-view_H {
-    margin-right: -44rpx;
-}
+
 .recd /deep/ .uni-scroll-view::-webkit-scrollbar {
     display: none;
 }

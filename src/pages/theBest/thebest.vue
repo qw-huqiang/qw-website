@@ -23,8 +23,8 @@
                         </view>
                     </view>
                 </view>
-                <recommend></recommend>
             </view>
+            <recommend></recommend>
         </view>
         <footernav></footernav>
     </view>

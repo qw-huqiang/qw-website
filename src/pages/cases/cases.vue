@@ -18,8 +18,9 @@
                 <title-h :tit="result.productComm.title" :txt="result.productComm.des" ></title-h>
                 <icon-card :list="result.productComm.list"></icon-card>
                 <!-- 产品特点 end-->
-                <recommend></recommend>
+                
             </view>
+            <recommend></recommend>
         </view>
         <footernav></footernav>
     </view>

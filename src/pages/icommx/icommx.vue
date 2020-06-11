@@ -27,8 +27,9 @@
                 <pic-fllow :flwobj="result.picfllow"></pic-fllow>
                 <!-- 结构示意图 end-->
 
-                <recommend></recommend>
+                
             </view>
+            <recommend></recommend>
         </view>
         <footernav></footernav>
     </view>

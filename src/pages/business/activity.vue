@@ -26,9 +26,8 @@
                     </view>
                 </view>
                 <!-- 营销插件方案 end -->
-
-                <recommend></recommend>
             </view>
+            <recommend></recommend>
         </view>
         <footernav></footernav>
     </view>
