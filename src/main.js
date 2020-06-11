@@ -12,6 +12,11 @@ import banner from '@/components/banner'
 import recommend from '@/components/recommend'
 // 标题组件
 import titleH from '@/components/title'
+Vue.component('topnav',topnav);
+Vue.component('footernav',footernav);
+Vue.component('banner',banner);
+Vue.component('recommend',recommend);
+Vue.component('title-h',titleH);
 export default {
     data() {
         return {
@@ -30,13 +35,6 @@ Vue.mixin({
   },
   onPageScroll(e) {
     this.srcollpage = e.scrollTop > 0
-  },
-  components: {
-      topnav,
-      footernav,
-      banner,
-      recommend,
-      titleH
   }
 })
 App.mpType = 'app'
