@@ -1,24 +1,24 @@
 {
     "banner": [{
-        "url": "../../static/icommx/bg-dp.png",
+        "url": "/static/icommx/bg-dp.png",
         "title1":"",
         "title2":"iCommX DP数据中台",
-        "content": "助力企业数字化转型，提效增速练<br/>内功，构建产业生态链",
+        "content": "数据中台，应用数字化管理，驱动精细化<br/>运营，提升企业数字化资产",
         "linkUrls":[{"name":"立即查看","linkurl":""}]
     }],
     "productTrait": {
         "title":"产品特点",
-        "des":"全网数商竭力为您的需求，多角度、全方位、深层次完成期望值，并力求超越。",
+        "des":"全面实现业务数字化、在线化，提升企业认知，加速企业进化",
         "list":[
-            {"pic":"../../static/icommx/dp-i1.png","title":"网络","des":"万物皆数，企业内外部业务全面数据化，打造数据中心，构建数据网络"},
-            {"pic":"../../static/icommx/dp-i2.png","title":"洞察","des":"深入分析企业运营现状、产品价值、用户需求各种数据,提升企业认知,支撑科学决策"},
-            {"pic":"../../static/icommx/dp-i3.png","title":"智能","des":"应用大数据、Al先进技术,将数据价值深度融合到营销、交易、运营全流程"},
-            {"pic":"../../static/icommx/dp-i4.png","title":"加速","des":"以数据做为决策支撑，快速行动，争夺用户时间窗口"}
+            {"pic":"http://www.qwang.com.cn/img/middlestage/qw_5.png","title":"网络","des":"万物皆数，企业内外部业务全面数据化，打造数据中心，构建数据网络"},
+            {"pic":"http://www.qwang.com.cn/img/middlestage/qw_6.png","title":"洞察","des":"深入分析企业运营现状、产品价值、用户需求各种数据,提升企业认知,支撑科学决策"},
+            {"pic":"http://www.qwang.com.cn/img/middlestage/qw_7.png","title":"智能","des":"应用大数据、Al先进技术,将数据价值深度融合到营销、交易、运营全流程"},
+            {"pic":"http://www.qwang.com.cn/img/middlestage/qw_8.png","title":"加速","des":"以数据做为决策支撑，快速行动，争夺用户时间窗口"}
         ]
     },
     "picfllow": {
-        "title":"主流程图",
-        "des":"快速搭建经销体系，赋能经销商，统一会员服务",
-        "pic": "../../static/icommx/dp-hp.png"
+        "title":"产品结构",
+        "des":"构建企业数据大脑，推进科学经营决策，持续数据应用创新",
+        "pic": "http://www.qwang.com.cn/img/middlestage/qw-mastergraph1.png"
     }
 }    

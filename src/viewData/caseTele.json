@@ -1,0 +1,47 @@
+{
+    "banner": [{
+        "url": "/static/cases/bg-cons.png",
+        "title1":"广电行业",
+        "title2":"数字化专业赋能解决方案",
+        "content": "以功能与应用为中心，打造双屏互动T2O MALL 助力广电企业从活动驱动向数据驱动升级。",
+        "linkUrls":[{"name":"立即查看","linkurl":""}]
+    }],
+    "productTrait": {
+        "title":"核心价值",
+        "des":"助力企业加快数字化进程，重建产业链价值。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/car19.png","title":"增收","des":"以用户为中心，引导广电企业，用户订购业务和下单消费，增加收入。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car20.png","title":"营销","des":"构建T2O MALL内容即商品，多种营销方式，拉动用户活跃度和交易额。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car16.png","title":"数据","des":"数据采集、挖掘和运营，实现广电企业的内容统一展示，服务精准推荐。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car21.png","title":"内容","des":"基于大数据运营支撑系统，使广电企业有效地推送健康、政宣等内容。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car22.png","title":"便民","des":"广电企业的便民信息，分类清晰，多功能聚合，一站式服务。"}
+        ]
+    },
+    "solution": {
+        "title":"业务说明",
+        "des":"以深度行业洞见，赋能关键业务数字化升级",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/shu13.png","title":"数字化转型","des":"助力广电企业构建以用户为中心的互联网数字化平台，创新的T2O功能、应用和双屏互动操作模式，电视端浏览、手机端交易，方便用户消费，提高转化。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu14.png","title":"创新的营销方式","des":"通过视频内容与商品服务双向引流及多种营销方式打造T2O MALL，重构广电特色的消费体验。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu15.png","title":"完备的数据分析体系","des":"利用广电特有的用户地理信息、家庭信息、视频观看喜好等用户数据，分析区域、家庭、个人偏好，精准推荐内容、商品、服务，帮助广电企业智慧运营。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu16.png","title":"特色健康知识宣传和政宣推送","des":"健康知识、政宣内容精准推送，方便广电企业特殊用户群体的阅读和观看。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu17.png","title":"可靠的便民服务","des":"充分利用广电企业良好的政府关系，通过电视营业厅、手机营业厅提供水、电、天然气、交通等便民服务，方便用户使用，提高用户黏度。","router":""}
+        ]
+    },
+    "productComm": {
+        "title":"产品推荐",
+        "des":"以技术领先、功能全面、定制灵活的产品矩阵，构建行业数字化解决方案。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/car17.png","title":"B2B2C","des":"支持多种业务模式，提高核心运营能力，打造生态级电子商务平台。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car6.png","title":"B2C","des":"以消费者驱动业务为核心，建立领先、支持多品类、多品牌运营的品牌零售系统。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car8.png","title":"数据中台","des":"应用数字化管理，驱动精细化运营，提升企业数字化资产。"}
+        ]
+    },
+    "theDemo": {
+        "title":"最佳实践",
+        "des":"行业标杆企业践行数字化升级",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/bestpractices/logo/qw_25.png","des":"歌华文化发展集团负责北京市有线广电业务。全网数商帮助歌华有线打造有线网厅、电视营业厅、手机营业厅、歌华影院、社区服务等多项业务平台，助力歌华打造大型国有平台型文化产业集团，成为立足首都、面向全国、走向世界的一流文化服务供应商。"}
+        ]
+    }
+}    

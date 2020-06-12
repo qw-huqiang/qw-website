@@ -1,0 +1,47 @@
+{
+    "banner": [{
+        "url": "/static/cases/bg-cons.png",
+        "title1":"保险行业",
+        "title2":"数字化专业赋能解决方案",
+        "content": "面向保险经代公司的互联网平台，助力企业扩大销售业绩，提升组织效率，通过深入洞察用户实现精准营销。",
+        "linkUrls":[{"name":"立即查看","linkurl":""}]
+    }],
+    "productTrait": {
+        "title":"核心价值",
+        "des":"助力企业加快数字化进程，重建产业链价值。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/car24.png","title":"拓展","des":"建立互联网销售通道，打造完善且丰富的线上保险产品，实现业绩快速增长。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car25.png","title":"快速","des":"通过产品的灵活配置与接入，实现不同险种、不同保险公司产品的快速上线。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car26.png","title":"高效","des":"支撑全网络销售，提高成单效率、加快业绩核算。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car27.png","title":"降本","des":"减少人员直销团队的成本投入，提高企业经营利润。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car28.png","title":"精准","des":"深入洞察用户，精准推荐保险产品，提高销售成功率。"}
+        ]
+    },
+    "solution": {
+        "title":"业务说明",
+        "des":"以深度行业洞见，赋能关键业务数字化升级",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/shu22.png","title":"全渠道销售拓展","des":"建立自营的网络销售平台，拓展第三方销售渠道，组织基于社会化网络的人员分销，实现销售渠道的全网络覆盖。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu23.png","title":"快速的业务适配","des":"快速实现不同险种产品配置和不同保险产品的接入，加快产品上线速度，丰富产品线。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu24.png","title":"强效的组织管理","des":"通过网销系统实现线上成保，快速出单，基于基本法的业务核心系统完成业绩实时核算，有效激励销售团队。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu11.png","title":"降低团队运营成本","des":"通过互联网化的销售人员工具，实现统一标准化的产品宣传，提高工作效率，优化销售团队。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu10.png","title":"精准的智能营销","des":"通过分析消费者数据信息，智能推荐适合的保险产品，提高销售转化。","router":""}
+        ]
+    },
+    "productComm": {
+        "title":"产品推荐",
+        "des":"以技术领先、功能全面、定制灵活的产品矩阵，构建行业数字化解决方案。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/car32.png","title":"保险网销系统","des":"数字化升级保险销售体系，提高营销效率，提升销售转化。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/car33.png","title":"保险核心系统","des":"保险行业特有的业务中台系统，全面支撑外部销售、内部运营。"},
+            {"pic":"http://www.qwang.com.cn/img/solution/qw-car3.png","title":"数据中台","des":"应用数字化管理，驱动精细化运营，提升企业数字化资产。"}
+        ]
+    },
+    "theDemo": {
+        "title":"最佳实践",
+        "des":"行业标杆企业践行数字化升级",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/bestpractices/logo/qw_31.png","des":"明亚保险是中国领先的保险经纪公司。全网数商帮助明亚保险打造700度保险网网销系统、业务核心系统，助力700度打造成为集合保险购买、理赔指导、线下咨询、金融理财、健康管理集一身的综合服务平台。"}
+        ]
+    }
+}    

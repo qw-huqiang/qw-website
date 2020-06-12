@@ -26,12 +26,6 @@
     </view>
 </template>
 <script>
-// 获取首页数据
-import result1 from '@/viewData/caseCart';
-import result2 from '@/viewData/caseCons';
-import result3 from '@/viewData/caseFlw';
-import result4 from '@/viewData/caseMfg';
-import result5 from '@/viewData/caseFood';
 // 产品特点
 import iconCard from '@/components/iconCard';
 // 业务说明 (图，文字上下结构)
@@ -47,22 +41,25 @@ export default {
         this.type = option.type;
         switch (option.type) {
             case 'cart':
-                this.result = result1
+                this.result = require('@/viewData/caseCart')
                 break;
             case 'cons':
-                this.result = result2
+                this.result = require('@/viewData/caseCons')
                 break;
             case 'flw':
-                this.result = result3
+                this.result = require('@/viewData/caseFlw')
                 break;
             case 'mfg':
-                this.result = result4
+                this.result = require('@/viewData/caseMfg')
                 break; 
             case 'food':
-                this.result = result5
-                break;    
+                this.result = require('@/viewData/caseFood')
+                break; 
+            case 'safe':
+                this.result = require('@/viewData/caseSafe')
+                break;        
             default:
-                this.result = result1
+                this.result = require('@/viewData/caseCart')
                 break;
         }
         

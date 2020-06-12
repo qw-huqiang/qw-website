@@ -30,13 +30,6 @@
     </view>
 </template>
 <script>
-    // 获取最佳实践数据
-  	import result from '@/viewData/thebest-tcl';
-  	import result1 from '@/viewData/thebest-jomoo';
-  	import result2 from '@/viewData/thebest-tima';
-  	import result3 from '@/viewData/thebest-haval';
-  	import result4 from '@/viewData/thebest-anyserves';
-  	import result5 from '@/viewData/thebest-haidilao';
     export default {
         data() {
             return {
@@ -46,25 +39,25 @@
         onLoad(option) {
             switch (option.type) {
                 case 'tcl':
-                    this.result = result
+                    this.result = require('@/viewData/thebest-tcl')
                     break;
                 case 'jomoo':
-                    this.result = result1
+                    this.result = require('@/viewData/thebest-jomoo')
                     break;
                 case 'tima':
-                    this.result = result2
+                    this.result = require('@/viewData/thebest-tima')
                     break;
                 case 'haval':
-                    this.result = result3
+                    this.result = require('@/viewData/thebest-haval')
                     break;
                 case 'anyserves':
-                    this.result = result4
+                    this.result = require('@/viewData/thebest-anyserves')
                     break;
                 case 'haidilao':
-                    this.result = result5
+                    this.result = require('@/viewData/thebest-haidilao')
                     break;        
                 default:
-                    this.result = result
+                    this.result = require('@/viewData/thebest-tcl')
                     break;
             }
             

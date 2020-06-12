@@ -1,0 +1,52 @@
+{
+    "banner": [{
+        "url": "/static/icommx/bg-tp.png",
+        "title1":"iCommX B2C",
+        "title2":"品牌零售系统",
+        "content": "全网数商B2C品牌零售系统以消费者驱动业务为核心，围绕客户需求认知、客户需求创造，建立领先、支持多品类、多品牌运营的品牌零售系统。",
+        "linkUrls":[{"name":"立即查看","linkurl":""}]
+    }],
+    "productTrait": {
+        "title":"产品特点",
+        "des":"支持企业以用户为核心，紧随市场需求，针对品牌零售企业，建立领先的交易体系、服务体系，促进交易，激活产业。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/channel_3_1.png","title":"整合","des":"多品牌多品类一体化管理，助力企业全流程打造的可信、开放的品牌零售平台"},
+            {"pic":"http://www.qwang.com.cn/img/channel_3_2.png","title":"定位","des":"丰富的互联网工具赋能企业快速高效品牌宣传"},
+            {"pic":"http://www.qwang.com.cn/img/channel_3_3.png","title":"触达","des":"根据用户属性、特征、爱好等数据，划分用户群体，实现目标人群的精准触达"},
+            {"pic":"http://www.qwang.com.cn/img/channel_3_4.png","title":"运营","des":"自动执行运营计划，提升运营效率，释放运营想象力"},
+            {"pic":"http://www.qwang.com.cn/img/channel_3_5.png","title":"集成","des":"支持与ERP、CRM等后端系统集成"}
+        ]
+    },
+    "mainfllow": {
+        "title":"主流程",
+        "des":"全网数通B2C品牌零售系统优化业务流程、提升运转效率，帮助品牌零售商分类运营统一管理，为新零售细化运营提供支撑。",
+        "pic": "http://www.qwang.com.cn/img/mechanics3.png",
+        "list": [
+            {"pic":"http://www.qwang.com.cn/img/role1.png","title":"平台","des":"对整个平台进行全面管理，包括各类基础信息管理，业务规则设置，各类运营数据分析与监控。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/channel_3_6.png","title":"品类运营","des":"全面管理本品类的业务运营，包括商品、库存、价格、订单、促销等，各品类的运营数据分析与监控。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/role4.png","title":"用户","des":"用户可通过多端注册、登录平台，在零售系统中购买商品及服务，参与各种营销活动。","router":""}
+        ]
+    },
+    "solution": {
+        "title":"系统说明",
+        "des":"全网数商B2C品牌零售系统，适应多品牌、多品类独立运营的需要，建立分散运营与统一管理相结合的新零售体系，推动品牌业务增长。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/solution1.png","title":"多品牌多品类一体化管理","des":"适应一品一牌、一品多牌、一牌多品等多种品牌运营方式，全面支持企业的品牌创新，快速建立品牌零售系统。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/explain2.png","title":"丰富营销策略","des":"丰富的营销活动，灵活的活动配置，通过会员运营、社群运营实现企业快速高效的品牌推广。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/explain3.png","title":"一站式智能运营平台","des":"通过用户画像识别用户群体，差异化制定营销策略，快速执行、持续分析投入产出比，提升关键运营指标。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu25.png","title":"自动执行运营计划","des":"基于营销策划，配置活动计划，以有序、高效的营销过程管理，提高营销效率，以速度提升企业竞争力。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu26.png","title":"数据集成","des":"通过与后端系统集成，打通数据流、业务流，提高业务运营处理效率，提升企业效益。","router":""}
+        ]
+    },
+    "multiport": {
+        "title":"多端应用",
+        "des":"以极简、易用、高效、优美的操作界面全面触达用户",
+        "list":[
+            {"name":"商城前台","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"品类运营前台","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"品类运营后台","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
+            {"name":"用户中心","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
+            {"name":"平台管理后台","obj":{"pc":true,"h5":false,"app":false,"wx":false,"xcx":false}}
+        ]
+    }
+}    
