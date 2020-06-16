@@ -1,0 +1,61 @@
+{
+    "banner": [{
+        "url": "/static/icommx/bg-tp.png",
+        "title1":"",
+        "title2":"iCommX B2B经销系统",
+        "content": "全网数商B2B经销系统帮助企业快速建立经销网络，赋能经销商，高效服务终端客户。",
+        "linkUrls":[]
+    }],
+    "productTrait": {
+        "title":"产品特点",
+        "des":"助力企业构建端对端之间的全渠道连接，强化端与端的供应管理，建立端和端的价值闭环",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/1.png","title":"快速","des":"快速组建经销网络，采用互联网方式裂变式发展"},
+            {"pic":"http://www.qwang.com.cn/img/2.png","title":"共享","des":"全渠道库存共享，CDC、DC、RDC、经销商仓、门店仓高效协同"},
+            {"pic":"http://www.qwang.com.cn/img/3.png","title":"赋能","des":"丰富的互联网工具赋能经销商快速高效开展业务"},
+            {"pic":"http://www.qwang.com.cn/img/4.png","title":"统一","des":"构建标准化的会员服务，优化会员体验"},
+            {"pic":"http://www.qwang.com.cn/img/5.png","title":"高效","des":"品牌商的运营策略，高效在经销商体系展开"}
+        ]
+    },
+    "mainfllow": {
+        "title":"主流程",
+        "des":"平台、品牌商、经销商高效协同，共同构建信息流、物流、资金流的闭环系统，协力共赢。",
+        "pic": "http://www.qwang.com.cn/img/mechanics4.png",
+        "list": [
+            {"pic":"http://www.qwang.com.cn/img/role1.png","title":"平台","des":"对整个平台进行全面管理，包括各类基础信息管理，业务规则设置，各类运营数据分析与监控。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/role2.png","title":"品牌商事业部","des":"全面管理本品牌的业务运营，包括商品、库存、价格、订单、经销商、门店，各类本品牌的运营数据分析与监控。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/role3.png","title":"经销商","des":"从平台订购商品，使用平台提供的各种赋能工具进行营销、销售、会员服务。","router":""}
+        ]
+    },
+    "solution": {
+        "title":"系统说明",
+        "des":"以数字化系统赋能经销商，拓展销售网络、建立销售团队、增加销量、降低库存。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/shu27.png","title":"互联网化的经销商管理体系","des":"不受地域和时间限制，快速高效拓展经销网络。优化经销商采购通道，提高采购效率。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu28.png","title":"差异化的价格策略","des":"灵活的定价管理，满足差异化的定价策略。强大的规则引擎，支撑复杂价格计算，保障经销政策的执行。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu29.png","title":"全渠道库存共享支持","des":"根据订单智能分仓，多仓发货协同，高效运营。“零库存”销售，减少库存压力，智能动态调配库存，增强运营能力。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu30.png","title":"丰富经销商赋能工具","des":"帮助经销商快速建立销售渠道，培训销售人员。同时提供互联网拓客工具，帮助经销商获取更多客户与订单。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu31.png","title":"统一的会员服务","des":"建立统一的会员政策，标准化的服务内容，强化品牌认知，优化用户体验。","router":""}
+        ]
+    },
+    "multiport": {
+        "title":"多端应用",
+        "des":"以极简、易用、高效、优美的操作界面全面触达用户",
+        "list":[
+            {"name":"商城前台","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"品牌商后台","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
+            {"name":"经销商后台","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
+            {"name":"门店后台","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
+            {"name":"用户中心","obj":{"pc":true,"h5":true,"app":false,"wx":false,"xcx":true}},
+            {"name":"平台管理后台","obj":{"pc":true,"h5":false,"app":false,"wx":false,"xcx":false}}
+        ],
+        "sysName":[
+            {"pic":"http://www.qwang.com.cn/img/multiport1.png","name":"pc端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport2.png","name":"移动端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport3.png","name":"H5端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport4.png","name":"小程序"},
+            {"pic":"http://www.qwang.com.cn/img/multiport5.png","name":"微信端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport6.png","name":"O2O门店"}
+        ]
+    }
+}    

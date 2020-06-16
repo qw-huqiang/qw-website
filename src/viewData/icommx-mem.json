@@ -1,0 +1,34 @@
+{
+    "banner": [{
+        "url": "/static/business/bg-mem.png",
+        "title1":"会员运营",
+        "title2":"赋能企业数字化变革",
+        "content": "会员数字化运营，助力企业全方位<br/>高效服务粉丝和客户",
+        "linkUrls":[]
+    }],
+    "productTrait": {
+        "title":"产品特点",
+        "des":"全流程会员运营平台 构建数字化、在线化、智能化会员运营体系体",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico4.png","title":"全域","des":"打通企业既有系统，统一多系统间的会员信息，提升服务体验"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/car28.png","title":"精准","des":"融合全网络的用户信息，描绘完整用户画像，实现精准营销、个性化服务"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/5.png","title":"高效","des":"全平台、全终端、全渠道触达用户，快速组织落实企业各种营销和宣传活动，营造快捷、高效、稳定、流畅用户场景消费体验"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico5.png","title":"智能","des":"数据收集、处理、应用 、前后关联，形成全景视图 。智能用户分群，智能用户服务等"}
+        ]
+    },
+    "solution": {
+        "title":"业务说明",
+        "des":"打造会员数据采集分析、活动策划执行、结果跟踪反馈的全流程会员运营体系",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/marketing/shu5.png","title":"全域数据采集","des":"多终端的数据采集与连接，多方数据的汇聚与融合，多场景数据的挖掘与运用，将大量的、不统一的数据碎片变化成可视化的整体，助力企业建立数字资产。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/marketing/shu6.png","title":"会员精准画像","des":"全端采集用户行为数据，整合业务数据等多种数据源，帮助企业构建体系化用户标签，输出用户画像，实现多维度的会员群体划分，赋能业务实现用户精细化运营。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/marketing/shu7.png","title":"计划活动管理","des":"根据精细化的会员群体划分，策划出差异化的营销活动，通过自动化营销，实现营销活动的高效管理。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/marketing/shu8.png","title":"智能活动分析","des":"帮助企业建立高效的数据指标体系，用先进的事件模型抽象用户行为，提供多维度、多指标的交叉分析能力，全面支撑营销活动的效果分析，辅助业务决策。","router":""}
+        ]
+    },
+    "picfllow": {
+        "title":"业务结构",
+        "des":"以数据中台、业务中台为支撑，构建社群运营、会员运营、营销工具协同的运营体系",
+        "pic": "http://www.qwang.com.cn/img/marketing/qw_2.png"
+    }
+}    

@@ -7,7 +7,7 @@
             </view>
             <view class="role_description"><text>角色说明</text></view>
             <view class="pro-items">
-                <view class="pro-item" v-for="(item,index) in flwobj.list" :key="index">
+                <view class="pro-item" v-for="(item,index) in flwobj.list" :key="index" :class="flwobj.list.length == 3 && index == 2 ?'th3-item':''">
                     <image mode="widthFix" :src="item.pic"></image>
                     <view class="pro-item-tit">{{item.title}}</view>
                     <view class="pro-item-des">{{item.des}}</view>
@@ -53,7 +53,7 @@ export default {
     border:1px solid rgba(223,223,223,1);
     margin-bottom: 20rpx;
 }
-.pro-item:nth-of-type(3n) {
+.pro-item.th3-item {
     width: 100%;
     height:  auto;
     padding-bottom: 40rpx;

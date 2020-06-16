@@ -1,0 +1,60 @@
+{
+    "banner": [{
+        "url": "/static/icommx/bg-tp.png",
+        "title1":"iCommX O2O",
+        "title2":"线上线下平台",
+        "content": "全网数商O2O线上线下平台，实现线上与线下完美结合，聚集消费群体。多终端覆盖实现品牌独有的新零售体系，推动品牌业务增长。",
+        "linkUrls":[]
+    }],
+    "productTrait": {
+        "title":"产品特点",
+        "des":"为门店与用户赋能，线上线下数据同步，重构消费新体验。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/role7.png","title":"增收","des":"店商+电商，线下+线上，帮助门店扩大服务范围，增加营业收入"},
+            {"pic":"http://www.qwang.com.cn/img/role8.png","title":"增资","des":"线上用户与线下用户统一标识，将客户变成用户，增加企业数字资产"},
+            {"pic":"http://www.qwang.com.cn/img/role9.png","title":"统一","des":"为门店与用户赋能，线上线下信息一致，重构消费新体验"},
+            {"pic":"http://www.qwang.com.cn/img/role10.png","title":"差异","des":"地区差异化的消费水平，可制定不同的营销策略，构建区域化针对性的购物体验"},
+            {"pic":"http://www.qwang.com.cn/img/qw-car4.png","title":"服务","des":"标准化服务体系，线上线下一致的服务标准，构建用户对品牌的可预期认知"}
+        ]
+    },
+    "mainfllow": {
+        "title":"主流程",
+        "des":"全网数通支持全面打通PC端、移动端、线下门店端数据，帮助零售商形成前端和后端、线上与线下一体的全渠道零售体系，重构消费者购物体验。",
+        "pic": "http://www.qwang.com.cn/img/mechanics2.png",
+        "list": [
+            {"pic":"http://www.qwang.com.cn/img/role1.png","title":"平台","des":"对整个平台进行全面管理，包括各类基础信息管理，业务规则设置，各类运营数据分析与监控。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/p1_2.png","title":"门店","des":"全面管理本门店的业务运营，包括商品、库存、价格、订单，各类本门店的运营数据分析与监控。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/role4.png","title":"用户","des":"用户可通过多端注册、登录平台，在交易平台上购买商品及服务，参与平台和店铺发布各种营销活动等。","router":""}
+        ]
+    },
+    "solution": {
+        "title":"系统说明",
+        "des":"全网数商O2O线上线下平台，打造用户主导的线上线下一体化新型门店，双向引流，增加客户消费频次。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/solution/shu32.png","title":"店商+电商，线下+线上","des":"既提供电商的便利，又提供店商的体验，通过交易多场景覆盖，提升用户的购物满意度，增加营业收入。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu33.png","title":"线上用户与线下用户标识统一","des":"线下用户全部转化为线上会员，统一用户身份，享受会员权益，门店全面采集用户交易数据，辅助运营决策。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu34.png","title":"多种购物方式","des":"创新多种交易场景，既满足门店采集数字化交易信息的需求，同时也为不同年龄的用户群体、不同场景下的购买过程提供最便利的购买体验。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu35.png","title":"地区差异化的消费策略","des":"根据区域化的消费群体差异，保持品类、定价、促销的灵活性，提供区域性的竞争优势，保证消费购买率。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/solution/shu36.png","title":"完备的服务体系","des":"建立总部、门店合理分工、标准化的服务体系，围绕客户便利性、满意度，以高效的方式提供服务。","router":""}
+        ]
+    },
+    "multiport": {
+        "title":"多端应用",
+        "des":"以极简、易用、高效、优美的操作界面全面触达用户",
+        "list":[
+            {"name":"商城前台","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"门店前台","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"门店后台","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
+            {"name":"用户中心","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"平台管理后台","obj":{"pc":true,"h5":false,"app":false,"wx":false,"xcx":false}}
+        ],
+        "sysName":[
+            {"pic":"http://www.qwang.com.cn/img/multiport1.png","name":"pc端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport2.png","name":"移动端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport3.png","name":"H5端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport4.png","name":"小程序"},
+            {"pic":"http://www.qwang.com.cn/img/multiport5.png","name":"微信端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport6.png","name":"O2O门店"}
+        ]
+    }
+}    

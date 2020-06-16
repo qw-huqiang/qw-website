@@ -12,7 +12,7 @@
                         <view class="qw-h5-nav" v-show="item.active">
                             <view class="ul">
                                 <view v-for="(second,idx) in item.secondCategort" :key="idx">
-                                    <navigator class="a" url="">
+                                    <navigator class="a" :url="second.url">
                                         <view class="h4">{{second.name}}</view>
                                         <view class="titl-p">{{second.detail}}</view>
                                     </navigator>
@@ -106,18 +106,23 @@
 							{
 								name:'社群运营',
 								detail:'iCommX SCRM',
-								url:"/pages/business/community"
+								url:"/pages/icommx/icommx?type=scrm"
 							},
 							{
 								name:'会员运营',
 								detail:'iCommX MemOps',
-								url:"/pages/business/member"
+								url:"/pages/icommx/icommx?type=mem"
 							},
 							{
 								name:'营销工具',
 								detail:'iCommX Marketing',
-								url:"/pages/business/activity"
+								url:"/pages/icommx/icommx?type=market"
 							},
+							{
+								name:'分销系统',
+								detail:'iCommX MDS',
+								url:""
+							}
 						]
 					},
 					{ 
@@ -126,32 +131,39 @@
 						secondCategort:[
 							{
 								name:'制造',
-								detail:''
+								detail:'',
+								url:"/pages/cases/cases?type=mfg"
 							},
 							{
 								name:'汽车',
-								detail:''
+								detail:'',
+								url:"/pages/cases/cases?type=cart"
 							},
 							{
 								name:'流通',
-								detail:''
+								detail:'',
+								url:"/pages/cases/cases?type=flw"
 							},
 							{
 								name:'快消',
-								detail:''
+								detail:'',
+								url:"/pages/cases/cases?type=cons"
 							},
 							{
 								name:'餐饮',
-								detail:''
+								detail:'',
+								url:"/pages/cases/cases?type=food"
 							},
 							{
 								name:'保险',
-								detail:''
+								detail:'',
+								url:"/pages/cases/cases?type=safe"
 							},
 							{
 								name:'广电',
-								detail:''
-							},
+								detail:'',
+								url:"/pages/cases/cases?type=tele"
+							}
 						]
 					},
 					{ 
@@ -161,32 +173,32 @@
 							{
 								name:'TCL集团',
 								detail:'',
-								url:"pages/theBest/thebest"
+								url:"/pages/theBest/thebest"
 							},
 							{
 								name:'九牧厨卫',
 								detail:'',
-								url:"pages/theBest/thebest?type=jomoo"
+								url:"/pages/theBest/thebest?type=jomoo"
 							},
 							{
 								name:'宏伟天马',
 								detail:'',
-								url:"pages/theBest/thebest?type=tima"
+								url:"/pages/theBest/thebest?type=tima"
 							},
 							{
 								name:'长城汽车',
 								detail:'',
-								url:"pages/theBest/thebest?type=haval"
+								url:"/pages/theBest/thebest?type=haval"
 							},
 							{
 								name:'创维安时达',
 								detail:'',
-								url:"pages/theBest/thebest?type=anyserves"
+								url:"/pages/theBest/thebest?type=anyserves"
 							},
 							{
 								name:'海底捞',
 								detail:'',
-								url:"pages/theBest/thebest?type=haidilao"
+								url:"/pages/theBest/thebest?type=haidilao"
 							}
 						]
 					},

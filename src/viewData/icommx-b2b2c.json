@@ -1,0 +1,63 @@
+{
+    "banner": [{
+        "url": "/static/icommx/bg-tp.png",
+        "title1":"iCommX B2B2C",
+        "title2":"多商户零售平台",
+        "content": "全网数商B2B2C多商户零售平台，支持平台自营、联营和混合模式，为传统大中型企业打造以提高商家运营能力为核心，致力于创建生态级电子商务平台，为用户网上商城运营提供配套的平台系统解决方案。",
+        "linkUrls":[]
+    }],
+    "productTrait": {
+        "title":"产品特点",
+        "des":"平台多模式无缝融合，模块灵活定制，数据报表丰富，助力商家精准定位市场和商品，更好服务于用户。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/b2b2c1.png","title":"融合","des":"平台支持自营模式、联营模式和混合模式"},
+            {"pic":"http://www.qwang.com.cn/img/b2b2c2.png","title":"灵活","des":"模块灵活定制，支持个性化需求二次开发，满足不同行业的客户需求"},
+            {"pic":"http://www.qwang.com.cn/img/b2b2c3.png","title":"精准","des":"基于用户画像，追踪用户习惯，智能推荐商品，实现精准营销"},
+            {"pic":"http://www.qwang.com.cn/img/b2b2c4.png","title":"服务","des":"标准化服务体系，规范线上平台的交易及服务规则，提升商户和用户的满意度"},
+            {"pic":"http://www.qwang.com.cn/img/b2b2c5.png","title":"开放","des":"开放式API，支持与ERP、CRM等第三方平台对接"}
+        ]
+    },
+    "mainfllow": {
+        "title":"主流程",
+        "des":"全网数商支持自营、入驻和混合模式的运营模式、从商家入驻申请、开店、发布商品、库存维护、促销执行、再到用户下单、报表统计和财务结算等管理，形成了一个电商交易链的闭环",
+        "pic": "http://www.qwang.com.cn/img/mechanics1.png",
+        "list": [
+            {"pic":"http://www.qwang.com.cn/img/role1.png","title":"平台","des":"对整个平台进行全面管理，包括各类基础信息管理，业务规则设置，各类运营数据分析与监控。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/role5.png","title":"入驻商户","des":"全面管理本商户的业务运营，包括商品、库存、价格、订单，各类本商户的运营数据分析与监控。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/role6.png","title":"自营店商户","des":"全面管理本自营店的业务运营，包括商品、库存、价格、订单，各类本自营店的运营数据分析与监控。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/role4.png","title":"用户","des":"用户可通过多端注册、登录平台，在交易平上购买商品及服务，可参与平台和店铺发布各种营销活动等。","router":""}
+        ]
+    },
+    "solution": {
+        "title":"系统说明",
+        "des":"网数商B2B2C多商户零售平台，有丰富的行业经验沉淀，功能齐全，多渠道覆盖，满足您的不同阶段的各种需求。",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/demo/b2b2c_explain.png","title":"多模式的无缝融合","des":"在用户界面保证自营和入驻商户交易体验的一致性，同时在后台业务管理上（比如在入驻、商品上架审核、财务结算等），实现差异化。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/b2b2c_explain1.png","title":"功能模块灵活定制","des":"系统功能丰富、配置灵活，可适应不用行业的业务交易特点，同时也能实现快速的二次开发，保证平台快速上线运营。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/b2b2c_explain2.png","title":"丰富的数据报表","des":"智能化、多维度的统计分析报表，既帮助平台方分析商户销售和服务情况，也帮助商家分析用户浏览、营销、交易的转化，实现精准营销。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/b2b2c_explain3.png","title":"完备的服务体系","des":"标准化服务体系，高质量的用户关怀，激活用户潜在活力的同时，提升用户对服务的满意度。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/demo/b2b2c_explain4.png","title":"开放的API","des":"为更便于与商户内部业务系统的融合，平台提供标准化的开放API，可使商户在平台上销售与商户内部业务系统贯通，形成实时的业务闭环。","router":""}
+        ]
+    },
+    "multiport": {
+        "title":"多端应用",
+        "des":"以极简、易用、高效、优美的操作界面全面触达用户",
+        "list":[
+            {"name":"商城前台","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"自营商户前台","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"自营商户后台","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
+            {"name":"入驻商户前台","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"入驻商户后台","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
+            {"name":"用户中心","obj":{"pc":true,"h5":true,"app":true,"wx":true,"xcx":true}},
+            {"name":"平台管理后台","obj":{"pc":true,"h5":false,"app":false,"wx":false,"xcx":false}}
+        ],
+        "sysName":[
+            {"pic":"http://www.qwang.com.cn/img/multiport1.png","name":"pc端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport2.png","name":"移动端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport3.png","name":"H5端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport4.png","name":"小程序"},
+            {"pic":"http://www.qwang.com.cn/img/multiport5.png","name":"微信端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport6.png","name":"O2O门店"}
+        ]
+    }
+}    

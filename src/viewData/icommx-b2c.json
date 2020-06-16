@@ -47,6 +47,14 @@
             {"name":"品类运营后台","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
             {"name":"用户中心","obj":{"pc":true,"h5":false,"app":true,"wx":false,"xcx":true}},
             {"name":"平台管理后台","obj":{"pc":true,"h5":false,"app":false,"wx":false,"xcx":false}}
+        ],
+        "sysName":[
+            {"pic":"http://www.qwang.com.cn/img/multiport1.png","name":"pc端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport2.png","name":"移动端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport3.png","name":"H5端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport4.png","name":"小程序"},
+            {"pic":"http://www.qwang.com.cn/img/multiport5.png","name":"微信端"},
+            {"pic":"http://www.qwang.com.cn/img/multiport6.png","name":"O2O门店"}
         ]
     }
 }    

@@ -28,33 +28,6 @@
 			}
 		},
 		{
-			"path": "pages/business/community",
-			"style": {
-				"navigationBarTitleText":"社群运营",
-				"app-plus": {
-					"titleNView": false
-				}
-			}
-		},
-		{
-			"path": "pages/business/member",
-			"style": {
-				"navigationBarTitleText":"会员运营",
-				"app-plus": {
-					"titleNView": false
-				}
-			}
-		},
-		{
-			"path": "pages/business/activity",
-			"style": {
-				"navigationBarTitleText":"营销活动",
-				"app-plus": {
-					"titleNView": false
-				}
-			}
-		},
-		{
 			"path": "pages/cases/cases",
 			"style": {
 				"navigationBarTitleText":"解决方案",

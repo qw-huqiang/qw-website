@@ -19,7 +19,11 @@
                     </view>
                     <view v-if="item.list != 0">
                         <view v-show="item.active">
-                            <view class="foot-item-li" v-for="(val,i) in item.list" :key="i">{{val.name}}</view>
+                            <block v-for="(val,i) in item.list" :key="i">
+                                <navigator :url="val.link">
+                                    <view class="foot-item-li" >{{val.name}}</view>
+                                </navigator>
+                            </block>
                         </view>
                     </view>
                 </view>
@@ -38,10 +42,103 @@ export default {
     data() {
         return {
             list: [
-                {title:'产品与支持',active: false,list:[{name: '业务中台',link: ''},{name: '业务中台',link: ''},{name: '业务中台',link: ''}]},
-                {title:'产品与支持',active: false,list:[{name: '业务中台',link: ''},{name: '业务中台',link: ''},{name: '业务中台',link: ''}]},
-                {title:'产品与支持',active: false,list:[{name: '业务中台',link: ''},{name: '业务中台',link: ''},{name: '业务中台',link: ''}]},
-                {title:'产品与支持',active: false,list:[{name: '业务中台',link: ''},{name: '业务中台',link: ''},{name: '业务中台',link: ''}]}
+                {
+                    title:'企业大中台',
+                    active: false,
+                    list:[
+                        {
+                            name: '业务中台',
+                            link: '/pages/icommx/icommx?type=bp'
+                        },
+                        {
+                            name: '数据中台',
+                            link: '/pages/icommx/icommx?type=dp'
+                        },
+                        {
+                            name: '技术中台',
+                            link: '/pages/icommx/icommx?type=tp'
+                        }
+                    ]
+                },
+                {
+                    title:'全渠道销售',
+                    active: false,
+                    list:[
+                        {
+                            name: '品牌零售系统',
+                            link: '/pages/icommx/icommx?type=b2c'
+                        },
+                        {
+                            name: '经销系统',
+                            link: '/pages/icommx/icommx?type=b2b'
+                        },
+                        {
+                            name: '线上线下平台',
+                            link: '/pages/icommx/icommx?type=o2o'
+                        },
+                        {
+                            name: '多商户零售平台',
+                            link: '/pages/icommx/icommx?type=b2b2c'
+                        },
+                        {
+                            name: '采购批发平台',
+                            link: '/pages/icommx/icommx?type=b2p2b'
+                        }
+                    ]
+                },
+                {
+                    title:'智能营销',
+                    active: false,
+                    list:[
+                        {
+                            name: '社群运营',
+                            link: '/pages/icommx/icommx?type=scrm'
+                        },
+                        {
+                            name: '会员运营',
+                            link: '/pages/icommx/icommx?type=mem'
+                        },
+                        {
+                            name: '营销工具',
+                            link: '/pages/icommx/icommx?type=market'
+                        }
+                    ]
+                },
+                {
+                    title:'解决方案',
+                    active: false,
+                    list:[
+                        {
+                            name:'制造',
+                            link:"/pages/cases/cases?type=mfg"
+                        },
+                        {
+                            name:'汽车',
+                            link:"/pages/cases/cases?type=cart"
+                        },
+                        {
+                            name:'流通',
+                            detail:'',
+                            link:"/pages/cases/cases?type=flw"
+                        },
+                        {
+                            name:'快消',
+                            link:"/pages/cases/cases?type=cons"
+                        },
+                        {
+                            name:'餐饮',
+                            link:"/pages/cases/cases?type=food"
+                        },
+                        {
+                            name:'保险',
+                            link:"/pages/cases/cases?type=safe"
+                        },
+                        {
+                            name:'广电',
+                            link:"/pages/cases/cases?type=tele"
+                        }
+                    ]
+                }
             ]
         }
     },

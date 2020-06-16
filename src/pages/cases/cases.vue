@@ -57,7 +57,10 @@ export default {
                 break; 
             case 'safe':
                 this.result = require('@/viewData/caseSafe')
-                break;        
+                break;
+            case 'tele':
+                this.result = require('@/viewData/caseTele')
+                break;            
             default:
                 this.result = require('@/viewData/caseCart')
                 break;
@@ -81,7 +84,13 @@ export default {
                 break;   
             case 'food':
                 barTitle = '餐饮解决方案'
-                break;     
+                break;  
+            case 'safe':
+                barTitle = '保险行业解决方案'
+                break;
+            case 'tele':
+                barTitle = '广电行业解决方案'
+                break;        
             default:
                 barTitle = ''
                 break;

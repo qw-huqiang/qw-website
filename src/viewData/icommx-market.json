@@ -1,0 +1,59 @@
+{
+    "banner": [{
+        "url": "/static/business/bg-act.png",
+        "title1":"营销活动",
+        "title2":"赋能企业数字化变革",
+        "content": "丰富、快速、灵活的营销活动，助<br/>力企业会员运营、社群运营",
+        "linkUrls":[{"name":"立即查看","linkurl":""}]
+    }],
+    "productTrait": {
+        "title":"产品特点",
+        "des":"一站式社群运营平台 持续激发企业数字化变革活力",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico6.png","title":"丰富","des":"营销活动丰富，适应多种营销和交易场景，持续创新，助力经营推广"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico7.png","title":"快速","des":"紧跟市场动态，快速策划执行营销活动，增强会员活跃度，提高运营效益"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico8.png","title":"灵活","des":"灵活地设置营销策略,有计划的组织营销活动，达成精准营销"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico9.png","title":"多端","des":"多平台、多终端、多渠道执行企业的各种营销和宣传活动，营造快捷、高效、稳定、流畅营销场景"}
+        ]
+    },
+    "solution": {
+        "title":"业务说明",
+        "des":"会员优惠、促销活动、裂变营销、社交游戏，全场景打造以用户中心的运营体系",
+        "list":[
+            {"pic":"http://www.qwang.com.cn/img/marketing/shu9.png","title":"全面支持多场景营销活动","des":"适应不同行业的营销模式、交易模式的需求，除常见的互联网营销活动外，也能支撑二手车、艺术品的拍卖业务，生鲜食品的周期订购业务等特殊场景。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/marketing/shu10.png","title":"支撑差异化的会员运营","des":"针对不同的会员等级、会员群体，设计出差异化的营销策略，通过全面的会员营销工具，实现营销策略落地执行。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/marketing/shu11.png","title":"助力社群运营快速传播","des":"以多方激励为核心的营销活动设计，实现营销活动在社群中裂变式的传播，广泛覆盖潜在用户，促进业务快速增长。","router":""},
+            {"pic":"http://www.qwang.com.cn/img/marketing/shu12.png","title":"以娱乐化的营销方式激发用户","des":"全面借鉴互联网游戏的设计理念，策划游戏化的营销活动，激发用户兴趣，增强用户使用黏性，通过游戏内容融合业务主业，提升交易转化。","router":""}
+        ]
+    },
+    "actcase": {
+        "title":"业务结构",
+        "des":"以丰富多样的营销工具，支撑社群运营、会员运营",
+        "list": [
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico10.png","title":"优惠套餐","des":"灵活搭配，组合销售"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico11.png","title":"加价购","des":"增加N元，换购商品"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico12.png","title":"优惠券","des":"券动客心，营销必备"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico13.png","title":"优惠码","des":"领专属码，享多重好礼"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico14.png","title":"优惠券礼包","des":"一次获得多张优惠券"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico15.png","title":"秒杀","des":"快速抢购最低价"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico16.png","title":"限时折扣","des":"商品限时打折促销"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico17.png","title":"买赠","des":"满足条件，享受赠品"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico18.png","title":"满减","des":"满足条件，享受优惠"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico19.png","title":"X元N件","des":"任选商品，打包一口价"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico20.png","title":"周期购","des":"一次卖掉一年货"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico21.png","title":"拍卖","des":"次次加价，最高价成交"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico22.png","title":"我要送礼","des":"购买商品送朋友"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico23.png","title":"团购","des":"组团购物，享受优惠"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico24.png","title":"团购返现","des":"组团购物，享受返现"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico25.png","title":"拼团","des":"拼单成团，裂变式转化"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico26.png","title":"分享有礼","des":"分享回馈，复购不愁"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico27.png","title":"砍价","des":"邀请好友砍价低价购买或免费获得"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico28.png","title":"好友瓜分券","des":"好友瓜分优惠券，带来更多流量"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico29.png","title":"刮刮卡","des":"通过刮开卡片进行抽奖的玩法"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico30.png","title":"幸运大抽奖","des":"常见转盘式玩法"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico31.png","title":"摇一摇","des":"让客户摇一摇进行抽奖"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico32.png","title":"翻翻看","des":"翻牌游戏，裂变拉新"},
+            {"pic":"http://www.qwang.com.cn/img/marketing/qw-ico33.png","title":"疯狂猜","des":"回答问题，按答题情况给奖励"}
+        ]
+    }
+}    
