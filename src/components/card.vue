@@ -1,10 +1,12 @@
 <template>
     <view class="cards">
-        <view class="card box" v-for="(item,index) in list" :key="index">
+        <block v-for="(item,index) in list" :key="index">
+        <navigator :url="item.router" class="card box">
             <view class="card-tit1">{{item.title}}</view>
             <view class="card-tit2">{{item.titleEn}}</view>
             <view class="card-tit3">{{item.des}}</view>
-        </view>
+        </navigator>
+        </block>
     </view>
 </template>
 <script>

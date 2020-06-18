@@ -4,31 +4,31 @@
             "title1":"",
             "title2":"企业大中台",
             "content": "利用地面网络、互联网、移动互联网、物联网构建全渠道销售网络，实现全程、全面、全线的销售商销方式，实现数字化商业创新。",
-            "linkUrls":[{"name":"立即查看","linkurl":"/pages/icommx/index?type=bp"}]
+            "linkUrls":[{"name":"立即查看","linkurl":"/pages/icommx/icommx?type=bp"}]
         },
         {
             "url": "/static/index/bg.png",
             "title1":"",
             "title2":"全渠道销售",
             "content": "利用地面网络、互联网、移动互联网、物联网构建全渠道销售网络，实现全程、全面、全线的销售商品和服务，提供随时随地的购买体验。",
-            "linkUrls":[{"name":"立即查看","linkurl":""}]
+            "linkUrls":[{"name":"立即查看","linkurl":"/pages/icommx/icommx?type=b2c"}]
         },
         {
             "url": "/static/index/bg.png",
             "title1":"",
             "title2":"智能营销",
             "content": "基于移动互联网、物联网、大数据及云计算科技，以用户为中心，通过个性化、精准化、智能化的营销方式，实现数字化商业创新。",
-            "linkUrls":[{"name":"立即查看","linkurl":""}]
+            "linkUrls":[{"name":"立即查看","linkurl":"/pages/icommx/icommx?type=mem"}]
         }
     ],
     "systems": [
-        {"title":"全域会员","titleEn":"Global membership","des":"全渠道用户数字化，构建精细化运营基石"},
-        {"title":"营销智能","titleEn":"Omnichannel marketing","des":"以用户为中心，构建数字化营销体系"},
-        {"title":"全渠道营销","titleEn":"Business center","des":"构建全网络销售通路，通过数字化系统，提升…"},
-        {"title":"智能服务","titleEn":"Business center","des":"高效、即时的服务体系，提升客户满意度"},
-        {"title":"业务中台","titleEn":"Business center","des":"助力企业数字化转型，提效增速练内功，构建产业生态链"},
-        {"title":"数据中台","titleEn":"Data center","des":"应用数字化管理，驱动精细化运营，提升企业数字化资产"},
-        {"title":"技术中台","titleEn":"Data center","des":"获取先进的科技基石，以领先的方法论，构建企业IT能力"}
+        {"title":"全域会员","titleEn":"Global membership","des":"全渠道用户数字化，构建精细化运营基石","router":"/pages/icommx/icommx?type=mem"},
+        {"title":"营销智能","titleEn":"Omnichannel marketing","des":"以用户为中心，构建数字化营销体系","router":"/pages/icommx/icommx?type=scrm"},
+        {"title":"全渠道营销","titleEn":"Business center","des":"构建全网络销售通路，通过数字化系统，提升…","router":"/pages/icommx/icommx?type=b2c"},
+        {"title":"智能服务","titleEn":"Business center","des":"高效、即时的服务体系，提升客户满意度","router":"/pages/icommx/icommx?type=market"},
+        {"title":"业务中台","titleEn":"Business center","des":"助力企业数字化转型，提效增速练内功，构建产业生态链","router":"/pages/icommx/icommx?type=bp"},
+        {"title":"数据中台","titleEn":"Data center","des":"应用数字化管理，驱动精细化运营，提升企业数字化资产","router":"/pages/icommx/icommx?type=dp"},
+        {"title":"技术中台","titleEn":"Data center","des":"获取先进的科技基石，以领先的方法论，构建企业IT能力","router":"/pages/icommx/icommx?type=tp"}
     ],
     "solution": {
         "title":"行业解决方案",
@@ -38,9 +38,9 @@
             {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab1.png","title":"流通业解决方案","des":"数字化助力制造企业实现战略转型","router":"/pages/cases/cases?type=flw"},
             {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab2.png","title":"快消业解决方案","des":"快消企业构建多品类一体化数字平台","router":"/pages/cases/cases?type=cons"},
             {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab3.png","title":"汽车业解决方案","des":"数字化重塑汽车企业业务经营体系","router":"/pages/cases/cases?type=cart"},
-            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab4.png","title":"餐饮业解决方案","des":"数字化升级餐饮企业服务体验","router":""},
-            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab5.png","title":"保险业解决方案","des":"助力保险经代公司拓展互联网业务","router":""},
-            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab6.png","title":"广电业解决方案","des":"数据驱动助力广电企业实现业务升级","router":""}
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab4.png","title":"餐饮业解决方案","des":"数字化升级餐饮企业服务体验","router":"/pages/cases/cases?type=food"},
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab5.png","title":"保险业解决方案","des":"助力保险经代公司拓展互联网业务","router":"/pages/cases/cases?type=safe"},
+            {"pic":"http://www.qwang.com.cn/img/demo/qw-solution-tab6.png","title":"广电业解决方案","des":"数据驱动助力广电企业实现业务升级","router":"/pages/cases/cases?type=tele"}
         ]
     },
     "projects": {

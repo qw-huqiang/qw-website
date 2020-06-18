@@ -5,9 +5,9 @@
                 <view class="content-text">
                     全网数商拥有15年、百余家大型企业数字化转型经验，可为您量身打造解决方案
                 </view>
-                <navigator url="navigate/navigate?title=navigate">
+                <view @click="showModel">
                     <view class="get-print">索取量身打造解决方案</view>
-                </navigator>
+                </view>
             </view>
         </view>
         <view class="footerbtm">
@@ -35,12 +35,15 @@
             </view>
             <view class="foot-beian">Copyright © 2010-2017 全网数商 保留公司所有权利   北京市公安局海淀分局备案编号11010802016028 京ICP备11047843号 Copyright2005-2015</view>
         </view>
+        <popu :modalstate="modalstate" v-on:emitState="emitState"></popu>
     </view>
 </template>
 <script>
+import popu from "@/components/popup"
 export default {
     data() {
         return {
+            modalstate: false,
             list: [
                 {
                     title:'企业大中台',
@@ -143,6 +146,12 @@ export default {
         }
     },
     methods: {
+        showModel() {
+            this.modalstate = true
+        },
+        emitState() {
+            this.modalstate = false
+        },
         collagePan(index){
             this.list[index].active = !this.list[index].active
         },
@@ -152,6 +161,9 @@ export default {
                 urls:['/static/index/erwm.png']
             }) 
         }
+    },
+    components: {
+        popu
     }
 }
 </script>

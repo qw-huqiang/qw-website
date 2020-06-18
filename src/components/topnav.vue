@@ -1,15 +1,20 @@
 <template>
     <view class="qw-visible-mobile" :class="srcollchange?'noline':''">
         <view :class="holder?'qw-top-seizeaseat':''"></view>
-        <view class="qw-header-mobile">
+        <view class="qw-header-mobile" :style="{paddingTop:  statusBarHeight+ 'px'}">
             <view class="qw-header-bg" :class="srcollchange?'black':''"></view>
-            <view url="javascript:;" class="qw-meun" @click="showSlide"></view>
+			<!-- #ifdef MP -->
+            <view class="qw-meun" :style="{top: statusBarHeight+ 'px'}" @click="showSlide"></view>
+			<!-- #endif -->
+			<!-- #ifndef MP -->
+			<view class="qw-meun" @click="showSlide"></view>
+			<!-- #endif -->
             <navigator url="/" class="qw-logo"></navigator>
-            <view class="qw-dropdown" id="qw-navbar-collapse" v-if="tabSlide">
+            <view class="qw-dropdown" id="qw-navbar-collapse" v-if="tabSlide" :style="{marginTop: statusBarHeight+ 'px'}">
                 <view class="ol">
-                    <view class="qw-itme" :class="item.active?'active':''" v-for="(item,index) in slideCategort" :key="index" @click="slideItem(index)">
-                        <view class="h3">{{item.title}}</view>
-                        <view class="qw-h5-nav" v-show="item.active">
+                    <view class="qw-itme" :class="item.active?'active':''" v-for="(item,index) in slideCategort" :key="index" >
+                        <view class="h3" @click="slideItem(index,item.activeHeight)">{{item.title}}</view>
+                        <view class="qw-h5-nav" v-bind:style="{maxHeight: item.contentHeight + 'px'}">
                             <view class="ul">
                                 <view v-for="(second,idx) in item.secondCategort" :key="idx">
                                     <navigator class="a" :url="second.url">
@@ -25,12 +30,14 @@
                         <view class="h3"><navigator class="a" url="/pages/aboutUs/aboutus">关于我们</navigator></view>
                     </view>
                 </view>
-                <navigator url="" class="qw-programme butn butn-custom">免费获取方案</navigator>
+                <view @click="showModel" class="qw-programme butn butn-custom">免费获取方案</view>
             </view>
         </view>
+		<popu :modalstate="modalstate" v-on:emitState="emitState"></popu>
     </view>
 </template>
 <script>
+import popu from "@/components/popup"
     export default {
 		props: {
 			holder: {
@@ -46,10 +53,13 @@
 			return {
 				tabSlide:false,
 				showItem:false,
+				modalstate: false,
+				statusBarHeight: 0,
 				slideCategort:[
 					{ 
                         title:'企业大中台',
-                        active:false,
+						activeHeight:0,
+						contentHeight: 0,
 						secondCategort:[
 							{
 								name:'业务中台',
@@ -70,7 +80,8 @@
 					},
 					{ 
                         title:'全渠道销售',
-                        active:false,
+                        activeHeight:0,
+						contentHeight: 0,
 						secondCategort:[
 							{
 								name:'品牌零售系统',
@@ -101,7 +112,8 @@
 					},
 					{ 
                         title:'智能营销',
-                        active:false,
+                        activeHeight:0,
+						contentHeight: 0,
 						secondCategort:[
 							{
 								name:'社群运营',
@@ -127,7 +139,8 @@
 					},
 					{ 
                         title:'解决方案',
-                        active:false,
+                        activeHeight:0,
+						contentHeight: 0,
 						secondCategort:[
 							{
 								name:'制造',
@@ -168,7 +181,8 @@
 					},
 					{ 
                         title:'最佳实践',
-                        active:false,
+                        activeHeight:0,
+						contentHeight: 0,
 						secondCategort:[
 							{
 								name:'TCL集团',
@@ -205,19 +219,61 @@
 				]
 			}
 		},
-		onLoad() {
-			this.result = result;
+		mounted() {
+			let _this = this;
+			// #ifdef MP
+			uni.getSystemInfo({
+				success: function (res) {
+					_this.statusBarHeight = res.statusBarHeight + 4;
+					if(res.platform.toLowerCase() == 'android'){
+						_this.statusBarHeight += 4;
+					}
+					
+				}
+			})
+			// #endif
 		},
 		methods: {
+			showModel() {
+				this.modalstate = true
+			},
+			emitState() {
+				this.modalstate = false
+			},
 			showSlide(){
 				this.tabSlide = !this.tabSlide
+
+				this.getRect('.qw-h5-nav',true).then(function (res) {
+					console.log(res)
+				});
 			},
 			slideItem(index){
 				this.slideCategort[index].active = !this.slideCategort[index].active
+			},
+			getRect(selector, all) {
+				var _this2 = this;
+
+				return new Promise(function (resolve) {
+					console.log(222)
+					uni.createSelectorQuery().in(_this2)[all ? 'selectAll' : 'select'](selector).boundingClientRect(function (rect) {
+						console.log(rect)
+					if (all && Array.isArray(rect) && rect.length) {
+						resolve(rect);
+						console.log(333)
+					}
+
+					if (!all && rect) {
+						resolve(rect);
+					}
+					}).exec();
+				});
 			}
 		},
 		onPageScroll(e) {
 			console.log(e)
+		},
+		components: {
+			popu
 		}
 	};
 </script>
@@ -225,10 +281,13 @@
 .qw-header-mobile{
 	width: 100%;
 	height: 120rpx;
+	/* #ifdef MP */
+	height: 90rpx;
+	/* #endif */
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 999;
+	z-index: 79;
 	border-bottom: 1px solid #666;
  }
  .noline {
@@ -236,6 +295,9 @@
  }
  .qw-top-seizeaseat{
 	height: 120rpx;
+	/* #ifdef MP */
+	height: 90rpx;
+	/* #endif */
  }
 .qw-header-bg {
 	position: absolute;
@@ -252,9 +314,11 @@
 .qw-meun, .qw-header-mobile .qw-meun{
 	width: 15%;
 	height: 120rpx;
+	/* #ifdef MP */
+	height: 90rpx;
+	/* #endif */
 	position: absolute;
 	top: 0;
-	background-position: 30rpx;
 	background-repeat: no-repeat;
 	-webkit-background-size: 40rpx 40rpx;
 	background-size: 40rpx 40rpx;
@@ -266,23 +330,36 @@
 	background: url('../static/index/menu.png') center no-repeat;
 	-webkit-background-size: 50rpx 36rpx;
 	background-size: 50rpx 36rpx;
+	/* #ifdef MP */
+	right: 194rpx;
+	background-position-y: 8px;
+	/* #endif */
 }
 .qw-header-mobile .qw-logo{
 	position: relative;
 	display: block;
-	width: 70%;
+	width: 60%;
 	height: 120rpx;
 	background: url('../static/index/qw-logo.png') 38rpx center no-repeat;
 	margin: 0;
 	-webkit-background-size: 392rpx auto;
 	background-size: 392rpx auto;
 	z-index: 3;
+	/* #ifdef MP */
+	height: 90rpx;
+	background-position-y: top;
+	margin-top: -4px;
+	/* #endif */
 }
 .qw-dropdown{
 	background-color: #fff;
 	position: fixed;
 	top: 120rpx;
 	height: calc(100vh - 120rpx);
+	/* #ifdef MP */
+	top: 90rpx;
+	height: calc(100vh - 90rpx);
+	/* #endif */
   overflow-y: auto;
 	bottom: 0;
 	left: 0;
@@ -293,6 +370,7 @@
 	width: 100%;
 	padding: 0 30rpx;
 	padding-top: 48rpx;
+	box-sizing: border-box
 }
 .qw-dropdown .ol>view .h3{
 	line-height: 100rpx;
@@ -302,7 +380,7 @@
 	font-size: 32rpx;
 }
 .qw-dropdown .ol>view.qw-itme .h3{
-	background: url('../static/index/qw-1.png') center right no-repeat;
+	background: url('http://www.qwang.com.cn/img/qw-1.png') center right no-repeat;
 	background-size:20rpx auto;
 }
 .qw-dropdown .ol>view .h3 .a{
@@ -310,12 +388,13 @@
 }
 
 .qw-dropdown .ol>view.qw-itme.active .h3{
-	background: url('../static/index/x.png') center right no-repeat;
+	background: url('http://www.qwang.com.cn/img/x.png') center right no-repeat;
 	background-size:auto 20rpx;
 }
 
 .qw-h5-nav{
 	padding: 0 30rpx;
+	overflow: hidden;
 }
 .qw-h5-imglogo{
 	overflow: hidden;
