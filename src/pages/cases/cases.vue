@@ -68,6 +68,7 @@ export default {
         
     },
     onReady() {
+        // #ifndef MP-ALIPAY
         let barTitle='';
         switch (this.type) {
             case 'cart':
@@ -98,6 +99,7 @@ export default {
         uni.setNavigationBarTitle({
             title: barTitle
         });
+        // #endif
     },
     components: {
         iconCard,

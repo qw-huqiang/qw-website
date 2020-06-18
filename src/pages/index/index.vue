@@ -97,7 +97,7 @@
 			}
 		},
 		onLoad() {
-			// this.result = result
+			// this.result = require('@/viewData/index')
 		},
 		methods: {
 			showSlide(){

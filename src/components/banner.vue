@@ -36,7 +36,8 @@ export default {
             }
         }
     },
-    created() {
+    mounted() {
+        console.log(this.banner)
         this.indicatorDots = this.banner.length != 1
     }
 }

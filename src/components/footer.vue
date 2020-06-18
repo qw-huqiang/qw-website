@@ -17,8 +17,8 @@
                         <view class="foot-item-tit">{{item.title}}</view>
                         <view class="foot-item-icon" :class="item.active?'active':''"></view>
                     </view>
-                    <view v-if="item.list != 0">
-                        <view v-show="item.active">
+                    <view class="collage-warper" v-bind:style="{maxHeight: item.activeHeight}">
+                        <view class="collage-items">
                             <block v-for="(val,i) in item.list" :key="i">
                                 <navigator :url="val.link">
                                     <view class="foot-item-li" >{{val.name}}</view>
@@ -44,10 +44,13 @@ export default {
     data() {
         return {
             modalstate: false,
+            currentname: true,
             list: [
                 {
                     title:'企业大中台',
                     active: false,
+                    activeHeight:0,
+					contentHeight: 0,
                     list:[
                         {
                             name: '业务中台',
@@ -66,6 +69,8 @@ export default {
                 {
                     title:'全渠道销售',
                     active: false,
+                    activeHeight:0,
+					contentHeight: 0,
                     list:[
                         {
                             name: '品牌零售系统',
@@ -92,6 +97,8 @@ export default {
                 {
                     title:'智能营销',
                     active: false,
+                    activeHeight:0,
+					contentHeight: 0,
                     list:[
                         {
                             name: '社群运营',
@@ -110,6 +117,8 @@ export default {
                 {
                     title:'解决方案',
                     active: false,
+                    activeHeight:0,
+					contentHeight: 0,
                     list:[
                         {
                             name:'制造',
@@ -153,13 +162,43 @@ export default {
             this.modalstate = false
         },
         collagePan(index){
-            this.list[index].active = !this.list[index].active
+            let _this = this;
+            if(this.currentname) {
+                this.getRect('.collage-items',true).then(function (res) {
+                    res.forEach((ele,i) => {
+                        _this.list[i].contentHeight = ele.height + 'px';
+                    });
+                    _this.list[index].activeHeight = _this.list[index].contentHeight
+                });
+            }
+            
+            this.currentname = false
+            this.list[index].active = !this.list[index].active;
+            this.list[index].activeHeight = this.list[index].active? this.list[index].contentHeight : 0;
+            // #ifdef MP-ALIPAY
+                // this.list[index].activeHeight = this.list[index].active? 'none' : 0
+            // #endif
         },
         preimg () {
             uni.previewImage({
                 current:'/static/index/erwm.png',
                 urls:['/static/index/erwm.png']
             }) 
+        },
+        getRect(selector, all) {
+            var _this2 = this;
+
+            return new Promise(function (resolve) {
+                uni.createSelectorQuery().in(_this2)[all ? 'selectAll' : 'select'](selector).boundingClientRect(function (rect) {
+                if (all && Array.isArray(rect) && rect.length) {
+                    resolve(rect);
+                }
+
+                if (!all && rect) {
+                    resolve(rect);
+                }
+                }).exec();
+            });
         }
     },
     components: {
@@ -255,5 +294,10 @@ export default {
    line-height: 34rpx;
     color: #999;
     text-align: center
+}
+.collage-warper {
+    overflow: hidden;
+	will-change:max-height;
+	transition:max-height .3s ease-in-out;
 }
 </style>

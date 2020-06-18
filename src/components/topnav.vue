@@ -9,12 +9,12 @@
 			<!-- #ifndef MP -->
 			<view class="qw-meun" @click="showSlide"></view>
 			<!-- #endif -->
-            <navigator url="/" class="qw-logo"></navigator>
-            <view class="qw-dropdown" id="qw-navbar-collapse" v-if="tabSlide" :style="{marginTop: statusBarHeight+ 'px'}">
+            <navigator url="/pages/index/index" class="qw-logo"></navigator>
+            <view class="qw-dropdown" id="qw-navbar-collapse" v-show="tabSlide" :style="{marginTop: statusBarHeight+ 'px'}">
                 <view class="ol">
                     <view class="qw-itme" :class="item.active?'active':''" v-for="(item,index) in slideCategort" :key="index" >
-                        <view class="h3" @click="slideItem(index,item.activeHeight)">{{item.title}}</view>
-                        <view class="qw-h5-nav" v-bind:style="{maxHeight: item.contentHeight + 'px'}">
+                        <view class="h3" @click="slideItem(index)">{{item.title}}</view>
+                        <view class="qw-h5-nav" v-bind:style="{maxHeight: item.activeHeight}">
                             <view class="ul">
                                 <view v-for="(second,idx) in item.secondCategort" :key="idx">
                                     <navigator class="a" :url="second.url">
@@ -52,14 +52,15 @@ import popu from "@/components/popup"
 		data() {
 			return {
 				tabSlide:false,
-				showItem:false,
 				modalstate: false,
 				statusBarHeight: 0,
+				currentname: true,
 				slideCategort:[
 					{ 
                         title:'企业大中台',
 						activeHeight:0,
 						contentHeight: 0,
+						active:false,
 						secondCategort:[
 							{
 								name:'业务中台',
@@ -82,6 +83,7 @@ import popu from "@/components/popup"
                         title:'全渠道销售',
                         activeHeight:0,
 						contentHeight: 0,
+						active:false,
 						secondCategort:[
 							{
 								name:'品牌零售系统',
@@ -114,6 +116,7 @@ import popu from "@/components/popup"
                         title:'智能营销',
                         activeHeight:0,
 						contentHeight: 0,
+						active:false,
 						secondCategort:[
 							{
 								name:'社群运营',
@@ -141,6 +144,7 @@ import popu from "@/components/popup"
                         title:'解决方案',
                         activeHeight:0,
 						contentHeight: 0,
+						active:false,
 						secondCategort:[
 							{
 								name:'制造',
@@ -183,6 +187,7 @@ import popu from "@/components/popup"
                         title:'最佳实践',
                         activeHeight:0,
 						contentHeight: 0,
+						active:false,
 						secondCategort:[
 							{
 								name:'TCL集团',
@@ -242,24 +247,32 @@ import popu from "@/components/popup"
 			},
 			showSlide(){
 				this.tabSlide = !this.tabSlide
-
-				this.getRect('.qw-h5-nav',true).then(function (res) {
-					console.log(res)
-				});
 			},
 			slideItem(index){
-				this.slideCategort[index].active = !this.slideCategort[index].active
+				let _this = this;
+				if(this.currentname) {
+					this.getRect('.ul',true).then(function (res) {
+						res.forEach((ele,i) => {
+							_this.slideCategort[i].contentHeight = ele.height + 'px';
+						});
+						_this.slideCategort[index].activeHeight = _this.slideCategort[index].contentHeight
+					});
+				}
+				
+				this.currentname = false
+				this.slideCategort[index].active = !this.slideCategort[index].active;
+				this.slideCategort[index].activeHeight = this.slideCategort[index].active? this.slideCategort[index].contentHeight : 0;
+				// #ifdef MP-ALIPAY
+					// this.slideCategort[index].activeHeight = this.slideCategort[index].active? 'none' : 0
+				// #endif
 			},
 			getRect(selector, all) {
 				var _this2 = this;
 
 				return new Promise(function (resolve) {
-					console.log(222)
 					uni.createSelectorQuery().in(_this2)[all ? 'selectAll' : 'select'](selector).boundingClientRect(function (rect) {
-						console.log(rect)
 					if (all && Array.isArray(rect) && rect.length) {
 						resolve(rect);
-						console.log(333)
 					}
 
 					if (!all && rect) {
@@ -268,9 +281,6 @@ import popu from "@/components/popup"
 					}).exec();
 				});
 			}
-		},
-		onPageScroll(e) {
-			console.log(e)
 		},
 		components: {
 			popu
@@ -395,6 +405,8 @@ import popu from "@/components/popup"
 .qw-h5-nav{
 	padding: 0 30rpx;
 	overflow: hidden;
+	will-change:max-height;
+	transition:max-height .3s ease-in-out;
 }
 .qw-h5-imglogo{
 	overflow: hidden;

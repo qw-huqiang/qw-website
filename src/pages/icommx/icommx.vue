@@ -120,6 +120,7 @@ export default {
         switch (option.type) {
             case 'bp':
                 this.result = require('@/viewData/icommx-bp')
+                console.log(this.result)
                 break;
             case 'dp':
                 this.result = require('@/viewData/icommx-dp')
@@ -158,6 +159,7 @@ export default {
         
     },
     onReady() {
+        // #ifndef MP-ALIPAY
         let barTitle='';
         switch (this.type) {
             case 'bp':
@@ -200,6 +202,7 @@ export default {
         uni.setNavigationBarTitle({
             title: barTitle
         });
+        // #endif
     },
     components: {
         iconCard,

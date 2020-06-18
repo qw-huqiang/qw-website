@@ -119,18 +119,18 @@
 </template>
 <script>
 // 获取最佳实践数据
-import result from '@/viewData/aboutUs';
+// import result from '@/viewData/aboutUs';
 export default {
     data() {
         return {
-            result: {},
+            result: require('@/viewData/aboutUs'),
             curt: 0,
             showLeft: false,
             showRight: true,
         }
     },
     onLoad() {
-        this.result = result
+        // this.result = result
     },
     methods: {
         preImgs1 (pic) {
@@ -350,6 +350,7 @@ margin-top: 30rpx;
     color: #fff;
     padding-top: 68rpx;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 .prog-Y {
     font-size: 52rpx;
@@ -366,8 +367,8 @@ margin-top: 30rpx;
     position: absolute;
     top: 34rpx;
     left: 34rpx;
-    bottom: 34rpx;
-    right: 34rpx;
+    width: 157rpx;
+    height: 157rpx;
     border: 1px solid #fff;
     transform: rotate(45deg);
 }
