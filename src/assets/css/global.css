@@ -70,11 +70,10 @@
     width: 100%;
     height: 100%;
 }
-.popup[hidden],.popup.act {
+.popup.act {
     display: block !important;
     visibility:hidden;
 }
-.popup[hidden] .popup-content,
 .popup.act  .popup-content{
     -webkit-transform: translate3d(-50%,-50%,0) scale(1.15);
             transform: translate3d(-50%,-50%,0) scale(1.15);
@@ -101,8 +100,6 @@
     opacity: 1;
     transition-duration: 400ms;
 }
-[hidden] .mask,
-.mask[hidden],
 .act .mask{
     display: block !important;
     visibility:hidden;

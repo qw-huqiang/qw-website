@@ -19,7 +19,7 @@
 				<!-- 业务系统 -->
 				<card :list="result.systems"></card>
 				<!-- 行业解决方案 -->
-				<title-h :tit="result.solution.title" :txt="result.solution.des" ></title-h>
+				<title-h :tit.sync="result.solution.tit" :txt="result.solution.des" ></title-h>
 				<industry :list="result.solution.list"></industry>
 				<!-- 行业解决方案 end-->
 
@@ -92,12 +92,13 @@
 			return {
 				indicatorDots: true,
 				autoplay: false,
-				result: require('@/viewData/index'),
-				
+				result: require('@/viewData/index')
 			}
 		},
 		onLoad() {
 			// this.result = require('@/viewData/index')
+		},
+		onReady() {
 		},
 		methods: {
 			showSlide(){
@@ -158,7 +159,7 @@
 	margin-right: -20rpx;
 }
 .brand /deep/ .swiper{
-	height:540rpx;
+	height:540rpx !important;
 }
 .swiper /deep/.uni-swiper-dot{
 	background: rgba(0,0,0,.5);
@@ -191,15 +192,17 @@
 	padding:40rpx 40rpx 24rpx;
 }
 .case .case-item .case-type{
-	margin-bottom: 44rpx;
+	margin-bottom: 34rpx;
+	margin-right: -30rpx;
 }
 .case .case-item .case-type text{
 	font-size: 28rpx;
 	color: #fff;
 	float: left;
-	margin-right: 20rpx;
+	margin-right: 10rpx;
 	background-color: #25B4D6;
 	padding: 10rpx 20rpx 12rpx;
+	margin-bottom: 10rpx;
 }
 .case .case-item .case-type text:last-child{
 	margin-right: 0;
@@ -225,7 +228,7 @@
 	margin-bottom: 70rpx;
 }
 .case /deep/ .swiper{
-	height:810rpx;
+	height:810rpx !important;
 }
 .case /deep/ .uni-swiper-dot-active{
 	background-color: #25B4D6;

@@ -1,8 +1,8 @@
 <template>
     <view class="home">
         <topnav :srcollchange="srcollpage"></topnav>
-        <banner :banner="result.banner"></banner>
-        <view>
+        <banner v-if="JSON.stringify(result) != '{}'" :banner="result.banner"></banner>
+        <view v-if="JSON.stringify(result) != '{}'">
             <view class="content mt_20">
                 <!-- 产品特点 -->
                 <title-h :tit="result.productTrait.title" :txt="result.productTrait.des" ></title-h>

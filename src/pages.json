@@ -78,6 +78,7 @@
 		"backgroundColor": "#F8F8F8",
 		// #ifdef MP-ALIPAY
 		"transparentTitle": "always",
+		"titlePenetrate": "YES",
 		// #endif
 			"navigationStyle": "custom"
 	}

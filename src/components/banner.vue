@@ -7,7 +7,7 @@
                     <view class="banr-des">
                         <view class="banr-des-title">{{item.title1}}</view>
                         <view class="banr-des-title">{{item.title2}}</view>
-                        <view class="banr-des-con" v-html="item.content"></view>
+                        <rich-text class="banr-des-con" :nodes="parsenode[index]"></rich-text>
                         <view v-if="item.linkUrls != 0">
                             <block v-for="(lk,ls) in item.linkUrls" :key="ls">
                                 <navigator class="butn butn-custom" :class="lk.clr?'butn0':''" :url="lk.linkurl" open-type="navigate" hover-class="none">{{lk.name}}</navigator>
@@ -21,11 +21,13 @@
     </view>
 </template>
 <script>
+import parseHtml from "@/assets/js/html-parse"
 export default {
     data() {
         return {
             indicatorDots: true,
             autoplay: true,
+            reParse: []
         }
     },
 	props: {
@@ -36,9 +38,26 @@ export default {
             }
         }
     },
-    mounted() {
-        console.log(this.banner)
+    created() {
         this.indicatorDots = this.banner.length != 1
+    },
+    watch: {
+        banner: {
+            immediate: true,
+            handler(newV) {
+                newV.forEach(ele => {
+                    this.reParse.push(ele.content)
+                });
+            }
+        }
+    },
+    computed: {
+        parsenode() {
+            return this.reParse.map((item) => {
+                return parseHtml(item)
+            })
+             
+        }
     }
 }
 </script>
@@ -86,6 +105,7 @@ export default {
     font-size: 24rpx;
     line-height: 48rpx;
     min-height: 230rpx;
+    display: block;
 }
 .butn {
     width: 200rpx;

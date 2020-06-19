@@ -1,7 +1,7 @@
 <template>
     <view class="home">
         <topnav :holder="true"></topnav>
-        <video id="myVideo" :src="result.videoUrl" :poster="result.videoPosr"></video>
+        <video id="myVideo" object-fit="cover" poster-size="cover" :src="result.videoUrl" :poster="result.videoPosr"></video>
         <view>
             <view class="content">
                 <view class="tcl-cont box">
@@ -223,7 +223,7 @@ export default {
     margin-bottom: 40rpx;
 }
 video {
-    width: 100%;
+    width: 100% !important;
 }
 .hop-line {
     display: flex;
@@ -308,7 +308,7 @@ margin-top: 30rpx;
     border:1px solid #DFDFDF;
 }
 .brand /deep/ .swiper{
-	height: 408rpx;
+	height: 408rpx !important;
 }
 .swiper /deep/.uni-swiper-dot{
 	background: rgba(0,0,0,.5);
@@ -330,7 +330,7 @@ margin-top: 30rpx;
     height: 100%;
 }
 .progress-warp /deep/ .swiper {
-    height: 776rpx;
+    height: 776rpx !important;
 }
 .progress-warp .swiper-warp {
     position: absolute;

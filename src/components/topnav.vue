@@ -4,12 +4,12 @@
         <view class="qw-header-mobile" :style="{paddingTop:  statusBarHeight+ 'px'}">
             <view class="qw-header-bg" :class="srcollchange?'black':''"></view>
 			<!-- #ifdef MP -->
-            <view class="qw-meun" :style="{top: statusBarHeight+ 'px'}" @click="showSlide"></view>
+            <view class="qw-meun" :class="lowernav?'lower-nav':''" :style="{top: statusBarHeight+ 'px'}" @click="showSlide"></view>
 			<!-- #endif -->
 			<!-- #ifndef MP -->
 			<view class="qw-meun" @click="showSlide"></view>
 			<!-- #endif -->
-            <navigator url="/pages/index/index" class="qw-logo"></navigator>
+            <navigator open-type="reLaunch" url="/pages/index/index" class="qw-logo"></navigator>
             <view class="qw-dropdown" id="qw-navbar-collapse" v-show="tabSlide" :style="{marginTop: statusBarHeight+ 'px'}">
                 <view class="ol">
                     <view class="qw-itme" :class="item.active?'active':''" v-for="(item,index) in slideCategort" :key="index" >
@@ -55,6 +55,12 @@ import popu from "@/components/popup"
 				modalstate: false,
 				statusBarHeight: 0,
 				currentname: true,
+				// #ifdef MP-ALIPAY
+				lowernav: true,
+				// #endif
+				// #ifndef MP-ALIPAY
+				lowernav: false,
+				// #endif
 				slideCategort:[
 					{ 
                         title:'企业大中台',
@@ -344,6 +350,17 @@ import popu from "@/components/popup"
 	right: 194rpx;
 	background-position-y: 8px;
 	/* #endif */
+}
+.qw-header-mobile .qw-meun.lower-nav {
+	width: 112rpx;
+	height: 60rpx;
+	border: 1px solid #e6e6ee;
+	border-right: 0;
+	border-radius: 30rpx 0 0 30rpx;
+	background-position-y: center;
+	background-color: rgba(255,255,255,0.8);
+	top: calc(100vh - 240rpx) !important;
+	right: 0 !important;
 }
 .qw-header-mobile .qw-logo{
 	position: relative;

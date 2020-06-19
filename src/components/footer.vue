@@ -31,7 +31,7 @@
             <view class="foot-servie">
                 <view class="foot-servie-num">服务热线 400-6060-980</view>
                 <view class="foot-servie-num">关注微信订阅号</view>
-                <image src="/static/index/erwm.png" @click="preimg"></image>
+                <image lazy-load src="/static/index/erwm.png" @click="preimg"></image>
             </view>
             <view class="foot-beian">Copyright © 2010-2017 全网数商 保留公司所有权利   北京市公安局海淀分局备案编号11010802016028 京ICP备11047843号 Copyright2005-2015</view>
         </view>

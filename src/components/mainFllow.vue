@@ -3,7 +3,7 @@
         <title-h :tit="flwobj.title" :txt="flwobj.des"></title-h>
         <view class="box">
             <view class="com-flow">
-                <image :src="flwobj.pic" mode="widthFix"></image>
+                <image lazy-load :src="flwobj.pic" mode="widthFix"></image>
             </view>
             <view class="role_description"><text>角色说明</text></view>
             <view class="pro-items">

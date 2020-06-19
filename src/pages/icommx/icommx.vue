@@ -1,12 +1,16 @@
 <template>
     <view class="home">
         <topnav :srcollchange="srcollpage"></topnav>
+        <view v-if="result.banner">
         <banner :banner="result.banner"></banner>
+        </view>
         <view>
             <view class="content mt_20">
                 <!-- 产品特点 -->
-                <title-h :tit="result.productTrait.title" :txt="result.productTrait.des" ></title-h>
-                <icon-card :list="result.productTrait.list"></icon-card>
+                <view v-if="result.productTrait">
+                    <title-h :tit="result.productTrait.title" :txt="result.productTrait.des" ></title-h>
+                    <icon-card :list="result.productTrait.list"></icon-card>
+                </view>
                 <!-- 产品特点 end-->
                
                <!-- 产品结构 -->
@@ -120,7 +124,7 @@ export default {
         switch (option.type) {
             case 'bp':
                 this.result = require('@/viewData/icommx-bp')
-                console.log(this.result)
+                console.log(this.result.banner)
                 break;
             case 'dp':
                 this.result = require('@/viewData/icommx-dp')
@@ -159,7 +163,7 @@ export default {
         
     },
     onReady() {
-        // #ifndef MP-ALIPAY
+        
         let barTitle='';
         switch (this.type) {
             case 'bp':
@@ -199,6 +203,7 @@ export default {
                 barTitle = ''
                 break;
         }
+        // #ifndef MP-ALIPAY
         uni.setNavigationBarTitle({
             title: barTitle
         });

@@ -3,7 +3,7 @@
         <view class="industry-item box" v-for="(item,index) in list" :key="index">
             <navigator :url="item.router" open-type="navigate" hover-class="none">
                 <view class="qw-img">
-                    <image mode="widthFix" :src="item.pic"></image>
+                    <image lazy-load mode="widthFix" :src="item.pic"></image>
                 </view>
                 <view class="qw-tit">{{item.title}}</view>
                 <view class="qw-txt">

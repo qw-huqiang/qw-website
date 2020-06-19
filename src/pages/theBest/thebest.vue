@@ -37,7 +37,10 @@
             }
         },
         onLoad(option) {
-            switch (option.type) {
+            this.type = option.type
+        },
+        onReady() {
+            switch (this.type) {
                 case 'tcl':
                     this.result = require('@/viewData/thebest-tcl')
                     break;

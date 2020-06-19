@@ -24,7 +24,7 @@ export default {
         }
     },
     onLoad() {
-        this.result = result
+        // this.result = result
     }
 }
 Vue.mixin({

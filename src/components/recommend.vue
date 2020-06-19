@@ -7,7 +7,7 @@
             <view class="no-warp">
                 <view class="recommed-main box" v-for="(item,index) in relist" :key="index">
                     <view class="recommed-logo">
-                        <image :src="item.pic" ></image>
+                        <image lazy-load :src="item.pic" ></image>
                     </view>
                     <view class="recommed-txt">
                         {{item.des}}

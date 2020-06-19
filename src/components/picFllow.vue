@@ -2,7 +2,7 @@
     <view>
         <title-h :tit="flwobj.title" :txt="flwobj.des"></title-h>
         <view class="com-flow box">
-            <image :src="flwobj.pic" mode="widthFix"></image>
+            <image lazy-load :src="flwobj.pic" mode="widthFix"></image>
         </view>
     </view>
 </template>
