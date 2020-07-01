@@ -39,6 +39,11 @@
         onLoad(option) {
             this.type = option.type
         },
+        onOptionMenuClick(e) {
+			my.alert({
+				content: `click option menu with index: ${JSON.stringify(e.data.index)}`,
+			});
+		},
         onReady() {
             switch (this.type) {
                 case 'tcl':

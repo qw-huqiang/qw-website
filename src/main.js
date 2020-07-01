@@ -33,6 +33,13 @@ Vue.mixin({
       srcollpage: false
     }
   },
+  // created() {
+  //   // #ifdef MP-ALIPAY
+  //   my.setOptionMenu({
+  //     icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAbklEQVRoge3XwQmAMBBFQXsxFmO/mlIMnlOIXoN4EImQ4AxsAQ/28ocBAACoZoz7HNaUp2U7erywpjzGfX4c3HNsGS3YSwMAAJ9qfVxUHw8tx76ah4IvfvfSAADAvdbHQfXx0HNsGS3YSwMAAE+dExHncLHNE+kAAAAASUVORK5CYII=',
+  //   });
+  //   // #endif
+  // },
   onPageScroll(e) {
     this.srcollpage = e.scrollTop > 0
   }

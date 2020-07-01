@@ -101,6 +101,11 @@ export default {
         });
         // #endif
     },
+    onOptionMenuClick(e) {
+			my.alert({
+				content: `click option menu with index: ${JSON.stringify(e.data.index)}`,
+			});
+		},
     components: {
         iconCard,
         industry

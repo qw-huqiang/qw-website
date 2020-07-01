@@ -4,12 +4,12 @@
         <view class="qw-header-mobile" :style="{paddingTop:  statusBarHeight+ 'px'}">
             <view class="qw-header-bg" :class="srcollchange?'black':''"></view>
 			<!-- #ifdef MP -->
-            <view class="qw-meun" :class="lowernav?'lower-nav':''" :style="{top: statusBarHeight+ 'px'}" @click="showSlide"></view>
+            <view class="qw-meun" :class="{'lower-nav':lowernav}" :style="{top: statusBarHeight+ 'px'}" @click="showSlide"></view>
 			<!-- #endif -->
 			<!-- #ifndef MP -->
 			<view class="qw-meun" @click="showSlide"></view>
 			<!-- #endif -->
-            <navigator open-type="reLaunch" url="/pages/index/index" class="qw-logo"></navigator>
+            <navigator open-type="reLaunch" url="/pages/index/index" class="qw-logo" :class="{'logo-offset':logoOffset}"></navigator>
             <view class="qw-dropdown" id="qw-navbar-collapse" v-show="tabSlide" :style="{marginTop: statusBarHeight+ 'px'}">
                 <view class="ol">
                     <view class="qw-itme" :class="item.active?'active':''" v-for="(item,index) in slideCategort" :key="index" >
@@ -55,8 +55,9 @@ import popu from "@/components/popup"
 				modalstate: false,
 				statusBarHeight: 0,
 				currentname: true,
+				logoOffset: false,
 				// #ifdef MP-ALIPAY
-				lowernav: true,
+				lowernav: false,
 				// #endif
 				// #ifndef MP-ALIPAY
 				lowernav: false,
@@ -230,6 +231,14 @@ import popu from "@/components/popup"
 				]
 			}
 		},
+		created() {
+			// #ifdef MP-ALIPAY
+			// 带返回键页面 logo留位置
+			if(getCurrentPages().length > 1) {
+				this.logoOffset = true
+			}
+			// #endif
+		},
 		mounted() {
 			let _this = this;
 			// #ifdef MP
@@ -367,7 +376,8 @@ import popu from "@/components/popup"
 	display: block;
 	width: 60%;
 	height: 120rpx;
-	background: url('../static/index/qw-logo.png') 38rpx center no-repeat;
+	background: url('../static/index/qw-logo.png') no-repeat;
+	background-position: 38rpx center;
 	margin: 0;
 	-webkit-background-size: 392rpx auto;
 	background-size: 392rpx auto;
@@ -378,6 +388,15 @@ import popu from "@/components/popup"
 	margin-top: -4px;
 	/* #endif */
 }
+/* #ifdef MP-ALIPAY */
+.qw-header-mobile .qw-meun {
+	right: 170rpx;
+}
+.qw-header-mobile .qw-logo.logo-offset {
+	width: 62%;
+	background-position-x: 58rpx;
+}
+/* #endif */
 .qw-dropdown{
 	background-color: #fff;
 	position: fixed;
