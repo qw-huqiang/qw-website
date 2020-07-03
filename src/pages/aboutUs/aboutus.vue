@@ -41,7 +41,7 @@
                     <view class="tcl-cont-txt">
                         <view class="tcl-cont-tit">{{result.honour.name}}</view>
                         <view class="tcl-cont-info brand">
-                            <swiper class="swiper" :indicator-dots="true" :autoplay="false">
+                            <swiper class="swiper" :indicator-dots="true" :autoplay="false" indicator-active-color="#25B4D6">
                                 <swiper-item v-for="(item, index) in honourList" :key="index">
                                         <view class="swiper-item uni-bg-red">
                                             <view class="brand-content clearfix">
@@ -61,7 +61,7 @@
                     <view class="tcl-cont-txt">
                         <view class="tcl-cont-tit">{{result.clientele.name}}</view>
                         <view class="tcl-cont-info brand">
-                            <swiper class="swiper" :indicator-dots="true" :autoplay="false">
+                            <swiper class="swiper" :indicator-dots="true" :autoplay="false" indicator-active-color="#25B4D6">
                                 <swiper-item v-for="(item, index) in clienteleList" :key="index">
                                         <view class="swiper-item uni-bg-red">
                                             <view class="brand-content clearfix">

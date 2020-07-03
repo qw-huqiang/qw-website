@@ -264,6 +264,7 @@ export default {
   border-top: 1px solid rgba(151, 151, 151,0.4);
   border-left:1px solid rgba(151, 151, 151,0.4);
   border-right:1px solid rgba(151, 151, 151,0.4);
+  box-sizing: border-box;
 }
 
 .multiport_app .surface_list .dl{
@@ -282,6 +283,7 @@ export default {
   font-size: 24rpx;
   text-align: center;
   border-bottom: 1px solid rgba(151, 151, 151,0.4);
+  box-sizing: border-box;
 }
 .multiport_app .surface_list .left_con .dt,
 .multiport_app .surface_list .left_con .dd{
@@ -343,6 +345,7 @@ export default {
     padding: 170rpx 14rpx 0;
     position: relative;
     margin-bottom: 20rpx;
+    box-sizing: border-box;
 }
 .act-cont-item .act-cont-pic {
     position: absolute;
