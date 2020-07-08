@@ -79,6 +79,7 @@
                 </view>
 
                 <!-- 发展历程 -->
+                <!-- 发展历程 -->
 				<title-h :tit="result.progress.name" :txt="result.progress.des"></title-h>
                 <view class="progress-warp">
                     <image class="pross-bg" src="../../static/aboutus/pross-bg.png"></image>
@@ -98,7 +99,7 @@
                                                     <image :src="val.pic"></image>
                                                     <view class="prog-li-txt">{{val.des}}</view>
                                                 </view>
-                                            </view>
+                                            </view>   
                                         </scroll-view>
                                     </view>
                                 </view>   
