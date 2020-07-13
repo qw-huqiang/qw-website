@@ -93,9 +93,9 @@
                                     <view class="prog-cricle"></view>
                                     <view class="prog-cont-wp">
                                         <scroll-view  scroll-x="true">
-                                            <view class="prog-warps">
+                                            <view class="prog-warps" v-if="imgRoute">
                                                 <view class="prog-li" v-for="(val, i) in item.list" :key="i">
-                                                    <image :src="val.pic"></image>
+                                                    <image :src="imgRoute + val.pic"></image>
                                                     <view class="prog-li-txt">{{val.des}}</view>
                                                 </view>
                                             </view>

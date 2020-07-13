@@ -1,6 +1,6 @@
 {
     "banner": [{
-        "url":"/static/icommx/bg-bp.png",
+        "url":"bg-bp.png",
         "title1":"iCommX BP业务中台",
         "title2":"iCommX Tech技术架构",
         "content": "助力企业数字化转型，提效增速练<br/>内功，构建产业生态链",

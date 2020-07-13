@@ -69,92 +69,92 @@
         "des":"15年专注于数字化建设服务，客户的可持续发展是对全网数商最大的肯定",
         "list":[
             {"years":"2019","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2019年04月 通过CMMI3级、ISO27001认证"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2019年05月 获得AAA级资信认证"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2019年12月 成功服务海底捞、锅圈等大型客户"}
+                {"pic":"dev-line/dev-line1.png","des":"2019年04月 通过CMMI3级、ISO27001认证"},
+                {"pic":"dev-line/dev-line2.png","des":"2019年05月 获得AAA级资信认证"},
+                {"pic":"dev-line/dev-line3.png","des":"2019年12月 成功服务海底捞、锅圈等大型客户"}
                 ]
             },
             {"years":"2018","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2018年03月 获得中国增值电信业务经营许可证"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2018年06月 获得华为云解决方案优选赛“出类拔萃奖”"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2018年09月 通过ISO9001认证"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2018年12月 成功服务一汽、创维、得力等大型客户"}
+                {"pic":"dev-line/dev-line4.png","des":"2018年03月 获得中国增值电信业务经营许可证"},
+                {"pic":"dev-line/dev-line5.png","des":"2018年06月 获得华为云解决方案优选赛“出类拔萃奖”"},
+                {"pic":"dev-line/dev-line.png","des":"2018年09月 通过ISO9001认证"},
+                {"pic":"dev-line/dev-line6.png","des":"2018年12月 成功服务一汽、创维、得力等大型客户"}
                 ]
             },
             {"years":"2017","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2017年01月 荣获“最具创新互联网技术架构奖”"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2017年05月 成立北京全网云商科技有限公司，开展电商运营业务"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2017年06月 成立北京全网智数科技有限公司，专注大数据技术研发"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2017年12月 成功服务奇瑞、古井、志邦橱柜等大型客户"}
+                {"pic":"dev-line/dev-line7.png","des":"2017年01月 荣获“最具创新互联网技术架构奖”"},
+                {"pic":"dev-line/dev-line8.png","des":"2017年05月 成立北京全网云商科技有限公司，开展电商运营业务"},
+                {"pic":"dev-line/dev-line9.png","des":"2017年06月 成立北京全网智数科技有限公司，专注大数据技术研发"},
+                {"pic":"dev-line/dev-line.png","des":"2017年12月 成功服务奇瑞、古井、志邦橱柜等大型客户"}
                 ]
             },
             {"years":"2016","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2016年02月 荣获“新三板最具投资价值企业”"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2016年03月 于合肥、济南建立子公司，强化华东、华北市场技术服务能力"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2016年07月 荣获“中国电子商务最佳电商系统服务商奖”"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2016年12月 成功服务海尔、长城汽车、九牧、国药等大型客户"}
+                {"pic":"dev-line/dev-line10.png","des":"2016年02月 荣获“新三板最具投资价值企业”"},
+                {"pic":"dev-line/dev-line11.png","des":"2016年03月 于合肥、济南建立子公司，强化华东、华北市场技术服务能力"},
+                {"pic":"dev-line/dev-line12.png","des":"2016年07月 荣获“中国电子商务最佳电商系统服务商奖”"},
+                {"pic":"dev-line/dev-line13.png","des":"2016年12月 成功服务海尔、长城汽车、九牧、国药等大型客户"}
                 ]
             },
             {"years":"2015","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2015年01月 成为中关村企业信用促进会会员单位"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2015年06月 发布产品-业务中台系统V1.0"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2015年12月 成功服务TCL、中国邮政、中国石油等大型客户"}
+                {"pic":"dev-line/dev-line14.png","des":"2015年01月 成为中关村企业信用促进会会员单位"},
+                {"pic":"dev-line/dev-line.png","des":"2015年06月 发布产品-业务中台系统V1.0"},
+                {"pic":"dev-line/dev-line15.png","des":"2015年12月 成功服务TCL、中国邮政、中国石油等大型客户"}
                 ]
             },
             {"years":"2014","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2014年01月 成为北京长风信息技术产业联盟理事单位"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2014年06月 发布产品-O2O电子商务系统V1.0"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2014年12月 成功服务东风日产、顺丰、歌华有线等大型客户"}
+                {"pic":"dev-line/dev-line16.png","des":"2014年01月 成为北京长风信息技术产业联盟理事单位"},
+                {"pic":"dev-line/dev-line17.png","des":"2014年06月 发布产品-O2O电子商务系统V1.0"},
+                {"pic":"dev-line/dev-line18.png","des":"2014年12月 成功服务东风日产、顺丰、歌华有线等大型客户"}
                 ]
             },
             {"years":"2013","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2013年03月 于武汉建立分公司，强化华南市场技术服务能力"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2013年09月 荣获“中国电子商务百强企业”称号"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2013年12月 成功服务张裕集团、明亚保险、中国国电、外交部等大型客户"}
+                {"pic":"dev-line/dev-line19.png","des":"2013年03月 于武汉建立分公司，强化华南市场技术服务能力"},
+                {"pic":"dev-line/dev-line20.png","des":"2013年09月 荣获“中国电子商务百强企业”称号"},
+                {"pic":"dev-line/dev-line21.png","des":"2013年12月 成功服务张裕集团、明亚保险、中国国电、外交部等大型客户"}
                 ]
             },
             {"years":"2012","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2012年05月 更名为“北京全网数商科技股份有限公司”，开启移动电子商务战略"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2012年12月 新三板成功挂牌（证券简称：全网数商，证券代码：430182）"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2012年12月 成功服务茅台、国家大剧院等大型客户"}
+                {"pic":"dev-line/dev-line22.png","des":"2012年05月 更名为“北京全网数商科技股份有限公司”，开启移动电子商务战略"},
+                {"pic":"dev-line/dev-line.png","des":"2012年12月 新三板成功挂牌（证券简称：全网数商，证券代码：430182）"},
+                {"pic":"dev-line/dev-line.png","des":"2012年12月 成功服务茅台、国家大剧院等大型客户"}
                 ]
             },
             {"years":"2011","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2011年08月 发布产品-保险网销系统V1.0"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2011年09月 荣获“中国电子商务最佳软件企业奖”"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2011年12月 成功服务大童保险等大型客户"}
+                {"pic":"dev-line/dev-line23.png","des":"2011年08月 发布产品-保险网销系统V1.0"},
+                {"pic":"dev-line/dev-line24.png","des":"2011年09月 荣获“中国电子商务最佳软件企业奖”"},
+                {"pic":"dev-line/dev-line25.png","des":"2011年12月 成功服务大童保险等大型客户"}
                 ]
             },
             {"years":"2010","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2010年09月 荣获“电子商务系统软件及运营服务奖十强”"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2010年10月 成功通过北京市双软企业认证"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2010年12月 成功服务于酒美网、中国书店、商务部等大型客户"}
+                {"pic":"dev-line/dev-line.png","des":"2010年09月 荣获“电子商务系统软件及运营服务奖十强”"},
+                {"pic":"dev-line/dev-line26.png","des":"2010年10月 成功通过北京市双软企业认证"},
+                {"pic":"dev-line/dev-line27.png","des":"2010年12月 成功服务于酒美网、中国书店、商务部等大型客户"}
                 ]
             },
             {"years":"2009","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2009年03月 荣获“中小企业电子商务优秀服务商”"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2009年06月 发布产品-B2B2C电子商务系统V1.0"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2009年12月 成功服务于中国移动等大型客户"}
+                {"pic":"dev-line/dev-line.png","des":"2009年03月 荣获“中小企业电子商务优秀服务商”"},
+                {"pic":"dev-line/dev-line28.png","des":"2009年06月 发布产品-B2B2C电子商务系统V1.0"},
+                {"pic":"dev-line/dev-line.png","des":"2009年12月 成功服务于中国移动等大型客户"}
                 ]
             },
             {"years":"2008","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2008年05月 为中国电信提供电子商务解决方案"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2008年09月 成为中关村瞪羚重点培育电商企业"}
+                {"pic":"dev-line/dev-line35.png","des":"2008年05月 为中国电信提供电子商务解决方案"},
+                {"pic":"dev-line/dev-line.png","des":"2008年09月 成为中关村瞪羚重点培育电商企业"}
                 ]
             },
             {"years":"2007","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2007年07月 推出“全程全网”电子商务解决方案"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2007年10月 成为北京软件行业协会理事会会员单位"}
+                {"pic":"dev-line/dev-line29.png","des":"2007年07月 推出“全程全网”电子商务解决方案"},
+                {"pic":"dev-line/dev-line30.png","des":"2007年10月 成为北京软件行业协会理事会会员单位"}
                 ]
             },
             {"years":"2006","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2006年02月 成功为第一个B2C客户实施项目"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2006年07月 成功通过高新技术企业认证"}
+                {"pic":"dev-line/dev-line31.png","des":"2006年02月 成功为第一个B2C客户实施项目"},
+                {"pic":"dev-line/dev-line32.png","des":"2006年07月 成功通过高新技术企业认证"}
                 ]
             },
             {"years":"2005","list":[
-                {"pic":"/static/aboutus/pros-pic.png","des":"2005年05月 北京友联慧通科技有限公司成立"},
-                {"pic":"/static/aboutus/pros-pic.png","des":"2005年12月 发布产品-B2C电子商务系统V1.0"}
+                {"pic":"dev-line/dev-line33.png","des":"2005年05月 北京友联慧通科技有限公司成立"},
+                {"pic":"dev-line/dev-line34.png","des":"2005年12月 发布产品-B2C电子商务系统V1.0"}
                 ]
             }
         ]

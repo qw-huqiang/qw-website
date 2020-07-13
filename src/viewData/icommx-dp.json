@@ -1,6 +1,6 @@
 {
     "banner": [{
-        "url": "/static/icommx/bg-dp.png",
+        "url": "bg-dp.png",
         "title1":"",
         "title2":"iCommX DP数据中台",
         "content": "数据中台，应用数字化管理，驱动精细化<br/>运营，提升企业数字化资产",

@@ -4,7 +4,7 @@
         <banner :banner="result.banner"></banner>
         <view>
             <view class="content">
-                <view class="tcl-cont">
+                <view class="tcl-cont" v-if="result.contents">
                     <view class="tcl-cont-pic" v-if="result.contents.publicityPic">
                         <image :src="result.contents.publicityPic"></image>
                     </view>

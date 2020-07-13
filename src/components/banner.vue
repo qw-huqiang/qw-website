@@ -1,9 +1,9 @@
 <template>
     <view class="banner">
-        <swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay">
+        <swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" v-if="imgRoute">
             <swiper-item v-for="(item, index) in banner" :key="index">
                 <view class="qw-img">
-                    <image :src="item.url"></image>
+                    <image :src="imgRoute + item.url"></image>
                     <view class="banr-des">
                         <view class="banr-des-title">{{item.title1}}</view>
                         <view class="banr-des-title">{{item.title2}}</view>

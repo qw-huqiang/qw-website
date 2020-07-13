@@ -17,20 +17,12 @@ Vue.component('footernav',footernav);
 Vue.component('banner',banner);
 Vue.component('recommend',recommend);
 Vue.component('title-h',titleH);
-export default {
-    data() {
-        return {
-            result: {}
-        }
-    },
-    onLoad() {
-        // this.result = result
-    }
-}
+
 Vue.mixin({
   data() {
     return {
-      srcollpage: false
+      srcollpage: false,
+      imgRoute: '/static/netimages/'
     }
   },
   // created() {
