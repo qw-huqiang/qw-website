@@ -1,6 +1,6 @@
 <template>
     <view class="banner">
-        <swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" v-if="imgRoute">
+        <swiper class="swiper" :autoplay="autoplay" @change="swiperChange" v-if="imgRoute">
             <swiper-item v-for="(item, index) in banner" :key="index">
                 <view class="qw-img">
                     <image :src="imgRoute + item.url"></image>
@@ -17,7 +17,11 @@
                 </view>
             </swiper-item>
         </swiper>
-        
+        <view class="dots"> 
+            <block v-for="(item, index) in banner" :key="index"> 
+                <view class="dot" :class="index==currentSwiper?'active':''"></view> 
+            </block> 
+        </view> 
     </view>
 </template>
 <script>
@@ -27,7 +31,8 @@ export default {
         return {
             indicatorDots: true,
             autoplay: true,
-            reParse: []
+            reParse: [],
+            currentSwiper: 0,
         }
     },
 	props: {
@@ -40,6 +45,11 @@ export default {
     },
     created() {
         this.indicatorDots = this.banner.length != 1
+    },
+    methods:{
+        swiperChange: function (e) {
+            this.currentSwiper = e.detail.current
+        }
     },
     watch: {
         banner: {
@@ -118,5 +128,26 @@ export default {
 .butn.butn0 {
     background-color: #F5A623;
     border-color: #F5A623;
+}
+.dots {
+    height: 8rpx;
+    line-height: 8rpx;
+    position: absolute;
+    bottom: 60rpx;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dot {
+    width: 72rpx;
+    height: 8rpx;
+    float: left;
+    margin:0rpx 8rpx;
+    background-color: rgba(255,255,255,0.26);
+}
+.dot.active {
+    width: 72rpx;
+    height: 8rpx;
+    background-color: #25B4D6;
 }
 </style>

@@ -41,7 +41,7 @@
                     <view class="tcl-cont-txt">
                         <view class="tcl-cont-tit">{{result.honour.name}}</view>
                         <view class="tcl-cont-info brand">
-                            <swiper class="swiper" :indicator-dots="true" :autoplay="false">
+                            <swiper class="swiper" :indicator-dots="true" :autoplay="false" indicator-active-color="#25B4D6">
                                 <swiper-item v-for="(item, index) in honourList" :key="index">
                                         <view class="swiper-item uni-bg-red">
                                             <view class="brand-content clearfix">
@@ -61,7 +61,7 @@
                     <view class="tcl-cont-txt">
                         <view class="tcl-cont-tit">{{result.clientele.name}}</view>
                         <view class="tcl-cont-info brand">
-                            <swiper class="swiper" :indicator-dots="true" :autoplay="false">
+                            <swiper class="swiper" :indicator-dots="true" :autoplay="false" indicator-active-color="#25B4D6">
                                 <swiper-item v-for="(item, index) in clienteleList" :key="index">
                                         <view class="swiper-item uni-bg-red">
                                             <view class="brand-content clearfix">
@@ -78,6 +78,7 @@
                     </view>
                 </view>
 
+                <!-- 发展历程 -->
                 <!-- 发展历程 -->
 				<title-h :tit="result.progress.name" :txt="result.progress.des"></title-h>
                 <view class="progress-warp">
@@ -98,7 +99,7 @@
                                                     <image :src="imgRoute + val.pic"></image>
                                                     <view class="prog-li-txt">{{val.des}}</view>
                                                 </view>
-                                            </view>
+                                            </view>   
                                         </scroll-view>
                                     </view>
                                 </view>   

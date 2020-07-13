@@ -26,7 +26,7 @@
 				<!-- 全网数商助力多行业客户成功 -->
 				<title-h :tit="result.projects.title" :txt="result.projects.des"></title-h>
 				<view class="brand">
-					<swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay">
+					<swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" indicator-active-color="#25B4D6">
 						<swiper-item v-for="(item, index) in comList" :key="index">
 								<view class="swiper-item uni-bg-red">
 									<view class="brand-content clearfix">
@@ -54,7 +54,7 @@
 				<!-- 实践案例 -->
 				<title-h :tit="result.cases.title" :txt="result.cases.des"></title-h>
 				<view class="case">
-					<swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay">
+					<swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" indicator-active-color="#25B4D6">
 						<swiper-item v-for="(item,index) in result.cases.list" :key="index">
 							<view class="case-item">
 								<view class="qw-img">

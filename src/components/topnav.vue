@@ -1,6 +1,7 @@
 <template>
     <view class="qw-visible-mobile" :class="srcollchange?'noline':''">
-        <view :class="holder?'qw-top-seizeaseat':''"></view>
+        <view :class="holder?'qw-top-seizeaseat':''" v-if="holder" :style="{paddingTop:  statusBarHeight+ 'px'}"></view>
+				<view :class="holder?'qw-top-seizeaseat':''" v-else></view>
         <view class="qw-header-mobile" :style="{paddingTop:  statusBarHeight+ 'px'}">
             <view class="qw-header-bg" :class="srcollchange?'black':''"></view>
 			<!-- #ifdef MP -->
