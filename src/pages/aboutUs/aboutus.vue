@@ -1,7 +1,8 @@
 <template>
     <view class="home">
         <topnav :holder="true"></topnav>
-        <video id="myVideo" object-fit="cover" poster-size="cover" :src="result.videoUrl" :poster="result.videoPosr"></video>
+        <!-- <video id="myVideo" object-fit="cover" poster-size="cover" :src="result.videoUrl" :poster="result.videoPosr"></video> -->
+        <image class="abu-banner" mode="widthFix" :src="result.videoPosr"></image>
         <view>
             <view class="content">
                 <view class="tcl-cont box">
@@ -424,5 +425,8 @@ margin-top: 30rpx;
 .prog-left image,.prog-right image {
     width: 22rpx;
     height: 42rpx;
+}
+.abu-banner {
+    width: 100%;
 }
 </style>
