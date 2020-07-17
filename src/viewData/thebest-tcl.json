@@ -4,7 +4,7 @@
         "title1":"",
         "title2":"TCL全渠道品牌新零售之路",
         "content": "帮助TCL集团建设领先的业务中台、全渠道销售系统，构建多品类、全渠道、全球化的业务管理体系。",
-        "linkUrls":[{"name":"索取详细方案","linkurl":"","clr":true},{"name":"立即咨询","linkurl":""}]
+        "linkUrls":[{"name":"立即咨询","linkurl":"","showPop": true}]
     }],
     "contents": {
         "publicityPic":"http://www.qwang.com.cn/img/bestpractices/qw-practice.png",

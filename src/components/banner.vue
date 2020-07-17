@@ -10,7 +10,12 @@
                         <rich-text class="banr-des-con" :nodes="parsenode[index]"></rich-text>
                         <view v-if="item.linkUrls != 0">
                             <block v-for="(lk,ls) in item.linkUrls" :key="ls">
-                                <navigator class="butn butn-custom" :class="lk.clr?'butn0':''" :url="lk.linkurl" open-type="navigate" hover-class="none">{{lk.name}}</navigator>
+                                <block v-if="lk.showPop">
+                                    <view class="butn butn-custom" @click="showModel">{{lk.name}}</view>
+                                </block>
+                                <block v-else>
+                                    <navigator class="butn butn-custom" :class="lk.clr?'butn0':''" :url="lk.linkurl" open-type="navigate" hover-class="none">{{lk.name}}</navigator>
+                                </block>
                             </block>
                         </view>
                     </view>
@@ -21,11 +26,13 @@
             <block v-for="(item, index) in banner" :key="index"> 
                 <view class="dot" :class="index==currentSwiper?'active':''"></view> 
             </block> 
-        </view> 
+        </view>
+        <popu :modalstate="modalstate" v-on:emitState="emitState"></popu> 
     </view>
 </template>
 <script>
 import parseHtml from "@/assets/js/html-parse"
+import popu from "@/components/popup"
 export default {
     data() {
         return {
@@ -33,6 +40,7 @@ export default {
             autoplay: true,
             reParse: [],
             currentSwiper: 0,
+            modalstate: false,
         }
     },
 	props: {
@@ -49,6 +57,12 @@ export default {
     methods:{
         swiperChange: function (e) {
             this.currentSwiper = e.detail.current
+        },
+        showModel() {
+            this.modalstate = true
+        },
+        emitState() {
+            this.modalstate = false
         }
     },
     watch: {
@@ -68,6 +82,9 @@ export default {
             })
              
         }
+    },
+    components: {
+        popu
     }
 }
 </script>

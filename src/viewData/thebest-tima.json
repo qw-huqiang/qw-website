@@ -4,7 +4,7 @@
         "title1":"",
         "title2":"宏伟天马创新打造工业互联网生态平台",
         "content": "帮助宏伟集团建设宏伟天马-工业品一站式在线采购服务平台，助力企业现代供应链体系转型升级。",
-        "linkUrls":[{"name":"索取详细方案","linkurl":"","clr":true},{"name":"立即咨询","linkurl":""}]
+        "linkUrls":[{"name":"立即咨询","linkurl":"","showPop": true}]
     }],
     "contents": {
         "publicityPic":"http://www.qwang.com.cn/img/bestpractices/tm-practice.png",

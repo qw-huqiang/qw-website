@@ -4,7 +4,7 @@
         "title1":"长城汽车品牌",
         "title2":"营销创新变革之路",
         "content": "帮助长城汽车建设领先的数字化平台，构建多品牌、多业务、多渠道的市场营销体系。",
-        "linkUrls":[{"name":"索取详细方案","linkurl":"","clr":true},{"name":"立即咨询","linkurl":""}]
+        "linkUrls":[{"name":"立即咨询","linkurl":"","showPop": true}]
     }],
     "contents": {
         "publicityPic":"http://www.qwang.com.cn/img/bestpractices/qc-practice.png",

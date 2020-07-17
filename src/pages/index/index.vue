@@ -98,6 +98,11 @@
 		onLoad() {
 			// this.result = require('@/viewData/index')
 		},
+		provide(){
+			return{
+				autopop:'hahhahah'
+			}
+		},
 		onReady() {
 		},
 		methods: {

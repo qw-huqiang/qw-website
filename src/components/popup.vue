@@ -5,7 +5,7 @@
             <view class="qw-modal-tit clearfix">
                 <view class="qw-close"  @click="hideModal"></view>
                 <view class="top">
-                    <image src="http://www.qwang.com.cn/img/q.png"></image>
+                    <image src="http://www.qwang.com.cn/img/q.png" mode="widthFix"></image>
                     <view class="top-tit">
                         <view class="_h2">HI！欢迎来到 <text>全网数商</text></view>
                         <view class="_p">扫码后您将获得以下福利</view>
@@ -54,6 +54,21 @@ export default {
             screenHide: false
         }
     },
+    inject:{
+        autopop: { default: '' }
+    },
+    mounted(){
+        let atp = uni.getStorageSync('autopop')
+        if(this.autopop && atp) {
+            setTimeout(() => {
+                this.screenHide = true
+            }, 5000)
+            setTimeout(() => {
+                this.screenHide = false
+            }, 10000)
+            uni.removeStorageSync('autopop')
+        }
+    },
     methods: {
         preImg() {
            uni.previewImage({
@@ -64,6 +79,7 @@ export default {
         hideModal() {
             this.screenHide = false
             this.$emit('emitState',false);
+            uni.removeStorageSync('autopop')
         },
         moveHandle() {
 
@@ -106,6 +122,7 @@ export default {
     width: 80rpx;
     height: 80rpx;
     float: left;
+    margin-top: 20rpx;
 }
 .qw-acquisitionscheme .top-tit {
     margin-left: 32rpx;
