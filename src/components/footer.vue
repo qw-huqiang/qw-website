@@ -33,7 +33,7 @@
                 <view class="foot-servie-num">关注微信订阅号</view>
                 <image lazy-load src="/static/index/erwm.png" @click="preimg"></image>
             </view>
-            <view class="foot-beian">Copyright © 2010-2017 全网数商 保留公司所有权利   北京市公安局海淀分局备案编号11010802016028 京ICP备11047843号 Copyright2005-2015</view>
+            <view class="foot-beian">Copyright ©2010-2020 全网数商 保留公司所有权利 北京市公安局海淀分局备案编号11010802016028 京ICP备11047843号</view>
         </view>
         <popu :modalstate="modalstate" v-on:emitState="emitState"></popu>
     </view>

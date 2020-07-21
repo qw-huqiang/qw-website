@@ -97,7 +97,7 @@
                                         <scroll-view  scroll-x="true">
                                             <view class="prog-warps" v-if="imgRoute">
                                                 <view class="prog-li" v-for="(val, i) in item.list" :key="i">
-                                                    <image :src="imgRoute + val.pic"></image>
+                                                    <!-- <image :src="imgRoute + val.pic"></image> -->
                                                     <view class="prog-li-txt">{{val.des}}</view>
                                                 </view>
                                             </view>   
@@ -342,7 +342,7 @@ margin-top: 30rpx;
     bottom: 0;
 }
 .progress-item {
-    padding: 60rpx 94rpx 0;
+    padding: 180rpx 94rpx 0;
 }
 .prog-year {
     width: 228rpx;
@@ -398,13 +398,14 @@ margin-top: 30rpx;
     height: 180rpx;
 }
 .prog-li-txt {
+    padding: 0 40rpx;
     font-size: 24rpx;
     line-height: 40rpx;
     color: #fff;
     height: 120rpx;
-    display: -webkit-box;
+    /* display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 3; */
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;

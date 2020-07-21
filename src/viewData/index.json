@@ -23,8 +23,8 @@
     ],
     "systems": [
         {"title":"全域会员","titleEn":"Global membership","des":"全渠道用户数字化，构建精细化运营基石","router":"/pages/icommx/icommx?type=mem"},
-        {"title":"营销智能","titleEn":"Omnichannel marketing","des":"以用户为中心，构建数字化营销体系","router":"/pages/icommx/icommx?type=scrm"},
-        {"title":"全渠道营销","titleEn":"Business center","des":"构建全网络销售通路，通过数字化系统，提升…","router":"/pages/icommx/icommx?type=b2c"},
+        {"title":"智能营销","titleEn":"Omnichannel marketing","des":"以用户为中心，构建数字化营销体系","router":"/pages/icommx/icommx?type=scrm"},
+        {"title":"全渠道销售","titleEn":"Business center","des":"构建全网络销售通路，通过数字化系统，提升…","router":"/pages/icommx/icommx?type=b2c"},
         {"title":"智能服务","titleEn":"Smart Services","des":"高效、即时的服务体系，提升客户满意度","router":"/pages/icommx/icommx?type=market"},
         {"title":"业务中台","titleEn":"Business Platform","des":"助力企业数字化转型，提效增速练内功，构建产业生态链","router":"/pages/icommx/icommx?type=bp"},
         {"title":"数据中台","titleEn":"Data Platform","des":"应用数字化管理，驱动精细化运营，提升企业数字化资产","router":"/pages/icommx/icommx?type=dp"},

@@ -14,12 +14,24 @@
 					<view class="company-tit">全渠道销售</view>
 					<view class="company-des">提升企业采购供应链效率</view>
 				</view>
+				<view class="company-item">
+					<view class="company-tit">智能营销</view>
+					<view class="company-des">精准、智能的用户互动体验</view>
+				</view>
+				<view class="company-item">
+					<view class="company-tit">解决方案</view>
+					<view class="company-des">七大行业数字化转型方案</view>
+				</view>
+				<view class="company-item">
+					<view class="company-tit">最佳实践</view>
+					<view class="company-des">海尔、TCL、长城汽车等</view>
+				</view>
 			</view>
 			<view class="content">
 				<!-- 业务系统 -->
 				<card :list="result.systems"></card>
 				<!-- 行业解决方案 -->
-				<title-h :tit.sync="result.solution.tit" :txt="result.solution.des" ></title-h>
+				<title-h :tit.sync="result.solution.title" :txt="result.solution.des" ></title-h>
 				<industry :list="result.solution.list"></industry>
 				<!-- 行业解决方案 end-->
 
@@ -43,12 +55,12 @@
 				<!-- 全网数商助力多行业客户成功 end-->
 
 				<!-- 安全合规的多重保障 -->
-				<title-h :tit="result.safety.title" :txt="result.safety.des"></title-h>
+				<!-- <title-h :tit="result.safety.title" :txt="result.safety.des"></title-h>
 				<view class="safeguard clearfix">
 					<view class="qw-img" v-for="(item,index) in result.safety.list" :key="index">
 						<image :src="item.pic" alt=""></image>
 					</view>
-				</view>
+				</view> -->
 				<!-- 安全合规的多重保障 end -->
 
 				<!-- 实践案例 -->
@@ -97,6 +109,7 @@
 		},
 		onLoad() {
 			// this.result = require('@/viewData/index')
+			// console.log(this.result)
 		},
 		provide(){
 			return{
@@ -256,10 +269,14 @@
 	display: flex;
 	align-items: center;
 	box-shadow:0 20rpx 40rpx 0 rgba(111,111,111,0.3);
+	overflow-y: hidden;
+	overflow-x: auto;
 }
 .company-item {
 	flex: 1;
 	color: #fff;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 	text-align: center;
 	padding: 0 30rpx;
 	border-right: 1px solid rgba(255,255,255,0.3)
