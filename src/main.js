@@ -22,7 +22,7 @@ Vue.mixin({
   data() {
     return {
       srcollpage: false,
-      imgRoute: '/static/netimages/'
+      imgRoute: 'http://www.qwang.com.cn/netimages/'
     }
   },
   // created() {

@@ -18,7 +18,7 @@
                         <view class="qw-h5-nav" v-bind:style="{maxHeight: item.activeHeight}">
                             <view class="ul">
                                 <view v-for="(second,idx) in item.secondCategort" :key="idx">
-                                    <navigator class="a" :url="second.url">
+                                    <navigator class="a" open-type="redirect" :url="second.url">
                                         <view class="h4">{{second.name}}</view>
                                         <view class="titl-p">{{second.detail}}</view>
                                     </navigator>

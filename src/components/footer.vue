@@ -20,7 +20,7 @@
                     <view class="collage-warper" v-bind:style="{maxHeight: item.activeHeight}">
                         <view class="collage-items">
                             <block v-for="(val,i) in item.list" :key="i">
-                                <navigator :url="val.link">
+                                <navigator open-type="redirect" :url="val.link">
                                     <view class="foot-item-li" >{{val.name}}</view>
                                 </navigator>
                             </block>
