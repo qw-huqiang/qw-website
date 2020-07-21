@@ -378,7 +378,7 @@ import popu from "@/components/popup"
 	width: 60%;
 	height: 120rpx;
 	background: url('../static/index/qw-logo.png') no-repeat;
-	background-position: 38rpx center;
+	background-position: 34rpx center;
 	margin: 0;
 	-webkit-background-size: 392rpx auto;
 	background-size: 392rpx auto;
@@ -386,7 +386,7 @@ import popu from "@/components/popup"
 	/* #ifdef MP */
 	height: 90rpx;
 	background-position-y: top;
-	margin-top: -4px;
+	margin-top: -3px;
 	/* #endif */
 }
 /* #ifdef MP-ALIPAY */
