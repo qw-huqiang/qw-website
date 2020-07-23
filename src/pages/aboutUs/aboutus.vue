@@ -90,7 +90,7 @@
                                 <view class="progress-item">
                                     <view class="prog-year">
                                         <view class="prog-Y">{{item.years}}</view>
-                                        <text>YRAR</text>
+                                        <text>YEAR</text>
                                     </view>
                                     <view class="prog-cricle"></view>
                                     <view class="prog-cont-wp">
@@ -200,7 +200,12 @@ export default {
                 return comlist
             }
         }
-    }      
+    },
+    /**
+    * 用户点击右上角分享
+    */
+    onShareAppMessage() {
+    },      
 }
 </script>
 <style scoped>

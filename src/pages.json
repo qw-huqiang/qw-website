@@ -75,7 +75,7 @@
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "全网数商",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
+		"backgroundColor": "#000000",
 		// #ifdef MP-ALIPAY
 		"transparentTitle": "always",
 		"titlePenetrate": "YES",
