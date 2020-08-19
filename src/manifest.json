@@ -76,6 +76,7 @@
             "mode" : "history",
             "base" : "/h5/"
         },
+        "publicPath": "/",
         "devServer" : {
             "https" : false,
             "port" : ""
