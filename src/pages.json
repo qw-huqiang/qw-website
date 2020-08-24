@@ -7,7 +7,7 @@
 				"navigationBarTitleText": "",
 				// #endif
 				// #ifndef MP-ALIPAY
-				"navigationBarTitleText": "首页",
+				"navigationBarTitleText": "全网数商-赋能企业数字化转型",
 				// #endif
 				"app-plus": {
 					"titleNView": false //禁用原生导航栏
