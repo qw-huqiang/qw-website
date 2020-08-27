@@ -83,7 +83,7 @@
                 <!-- 发展历程 -->
 				<title-h :tit="result.progress.name" :txt="result.progress.des"></title-h>
                 <view class="progress-warp">
-                    <image class="pross-bg" src="../../static/aboutus/pross-bg.png"></image>
+                    <image class="pross-bg" src="/static/aboutus/pross-bg.png"></image>
                     <view class="swiper-warp">
                         <swiper class="swiper" :indicator-dots="false" :autoplay="false" :current="curt" @change="swiperChange">
                             <swiper-item v-for="(item, index) in result.progress.list" :key="index" >
@@ -107,10 +107,10 @@
                             </swiper-item>
                         </swiper>
                         <view class="prog-left" @click="pullLeft" v-show="showLeft">
-                            <image src="../../static/aboutus/pros-left.png"></image>
+                            <image src="/static/aboutus/pros-left.png"></image>
                         </view>
                         <view class="prog-right" @click="pullright" v-show="showRight">
-                            <image src="../../static/aboutus/pros-right.png"></image>
+                            <image src="/static/aboutus/pros-right.png"></image>
                         </view>
                     </view>
                 </view>
